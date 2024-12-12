@@ -11,7 +11,8 @@ If you find some ignored papers, **feel free to *create pull requests*, *open is
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
 ![./overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/overview.png)
-| Figure 1. Overview of aligning time series data with LLMs. |
+<center>Figure 1. Overview of aligning time series data with large language model.</center>
+
 ### Motivation and Contribution:
 
 The increased use of aligned LLMs in time series data mining can enhance pattern recognition and reasoning across different domains and lay the foundation for general artificial intelligence that can understand and process common temporal data. **Our goal is to help practitioners optimize alignment methods by analyzing data based on time series data, thereby proposing ideas from data-driven to domain alignment and further studying areas that have not been fully explored**.
@@ -23,8 +24,10 @@ In our survey, we explore the existing works and define an alignment space consi
 3) We discuss and highlight future directions that advance time series analysis with LLMs and encourage researchers and practitioner to further investigate this field.
 <br/>
 
-![./taxonomy_image.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy_image.png)
-| Figure 2. We divide the work into three categories according to the main optimizations: prompt+embeding (Ts-Prompt-LLM), TS-for-LLM (TS-for-LLM), LLM-for-TS (LLM-for-TS), and present representative works for each category, sorted by publication date. Dark(light)- colored boxes represent multivariate (univariate) data. The icons on the left side of the text box represent the application domains, and the right side represents the modality of the time series data. The meaning of the icons is shown in Figure 1. |
+![./taxonomy-image.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-image.png)
+<center>Figure 2. We divide the work into three categories according to the main optimizations: prompt+embeding (Ts-Prompt-LLM), TS-for-LLM (TS-for-LLM), LLM-for-TS (LLM-for-TS), and present representative works for each category, sorted by publication date. Dark(light)- colored boxes represent multivariate (univariate) data. The icons on the left side of the text box represent the application domains, and the right side represents the modality of the time series data. The meaning of the icons is shown in Figure 1.</center>
+<br/>
+
 <!--
 - [Taxonomy](#taxonomy)
   - [Prompting](#prompting)
