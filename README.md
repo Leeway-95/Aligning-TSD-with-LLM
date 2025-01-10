@@ -11,7 +11,7 @@ If you find some ignored papers, **feel free to *create pull requests*, *open is
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
 ![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
-<center>Figure 1. Overview of aligning time series data with large language model.</center>
+<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-**Prompt**-LLM, TS-**Adapt**-LLM, and TS-**Finetune**-LLM methods, in which the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively.. The transparent icons represent options.</center>
 
 ### Motivation and Contribution:
 
@@ -25,7 +25,13 @@ In our survey, we explore the existing works and define an alignment space consi
 <br/>
 
 ![./taxonomy-image.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-image.png)
-<center>Figure 2. We divide the work into three categories according to the main optimizations: prompt+embeding (Ts-Prompt-LLM), TS-for-LLM (TS-for-LLM), LLM-for-TS (LLM-for-TS), and present representative works for each category, sorted by publication date. Dark(light)- colored boxes represent multivariate (univariate) data. The icons on the left side of the text box represent the application domains, and the right side represents the modality of the time series data. The meaning of the icons is shown in Figure 1.</center>
+<center>Figure 2. Taxonomy of related works in semantic alignment methods. We categorize the works into three distinct types based on their focus for optimization: TS-**Prompt**-LLM (focus on text), TS-**Adapt**-LLM (focus on time series), and TS-**Finetune**-LLM (focus on training LLM). We present representative works for each category, organized by publication year. The icons on the left side of the text box represent the domains of time series, while those on the right side represent the modality of time series or the usage of LLM. The meaning of these icons is consistent with Figure 1. Each work is visually divided to indicate its focus on modalities, domains, dimensions, and LLM usages.</center>
+<br/>
+
+Although the pre-trained foundation model demonstrates impressive zero-shot capabilities, aligning with this zero-shot reasoner can significantly improve when fine-tuned for specific tasks using few-shot training. We analyzed related work and found a bidirectional trend: from data to alignment method, the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. From the alignment method to data, TS-**Prompt**-LLM focuses on text modality and channel-dependent multivariate design and uses both specific and general domains. TS-**Adapt**-LLM focuses on time series modality and channel-independent univariate design. TS-**Finetune**-LLM focuses on general domains and multivariate correlation, as shown in Figure 3. This illustrates the stages of alignment, starting from the prompt stage and moving through the adapter stage to the fine-tuning stage.
+
+![./taxonomy-xmind.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-xmind.png)
+<center>Figure 3. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., general, healthcare, finance, IoT), data modalities (e.g., TS, text), and data dimensions (e.g., multivariate, univariate).</center>
 <br/>
 
 <!--
