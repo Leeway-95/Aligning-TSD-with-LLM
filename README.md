@@ -11,7 +11,7 @@ If you find some ignored papers, **feel free to *create pull requests*, *open is
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
 ![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
-<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM methods, in which **the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively**. The transparent icons represent options.</center>
+<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM methods, in which ***the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively***. The transparent icons represent options.</center>
 
 ### Motivation and Contribution:
 
