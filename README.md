@@ -10,7 +10,7 @@ If you find some ignored papers, **feel free to *create pull requests*, *open is
 
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
-![./overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/overview.png)
+![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
 <center>Figure 1. Overview of aligning time series data with large language model.</center>
 
 ### Motivation and Contribution:
