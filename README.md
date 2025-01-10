@@ -1,17 +1,17 @@
-# aligning-llm-time-series
+# Aligning-TSD-with-LLM
 
-Tracking papers on "LLM for time series data", more details in [Aligning Time Series Data with Large Language Models: A Survey](https://arxiv.org/abs/2402.01801).
+More details in [Aligning Time Series Data with Large Language Models: A Survey](https://arxiv.org/abs/2402.01801).
 
-<!--[New🔥] Our survey paper is accepted to IJCAI 2024, survey track! -->
+<!--[New🔥] Our survey paper is submitted to IJCAI 2024, survey track! -->
 
-This repository is activately maintained by [*Wei Li*] from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly.
+This repository is activately maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly.
 
 If you find some ignored papers, **feel free to *create pull requests*, *open issues*, or *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). <br/> 
 
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
 ![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
-<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-**Prompt**-LLM, TS-**Adapt**-LLM, and TS-**Finetune**-LLM methods, in which the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively.. The transparent icons represent options.</center>
+<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM methods, in which **the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively**. The transparent icons represent options.</center>
 
 ### Motivation and Contribution:
 
@@ -46,6 +46,8 @@ Although the pre-trained foundation model demonstrates impressive zero-shot capa
 - [Datasets](#datasets)
 - [Citation](#citation)
 -->
+
+### Details:
 
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
