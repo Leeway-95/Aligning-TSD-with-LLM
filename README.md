@@ -51,23 +51,14 @@ Although the pre-trained foundation model demonstrates impressive zero-shot capa
 
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
-11 Sep 2022|[Leveraging Language Foundation Models for Human Mobility Forecasting](https://arxiv.org/abs/2209.05479)|University of New South Wales|SIGSPATIAL'22|Mobility|Forecasting|BERT, BoBERTa, GPT-2, etc.
 20 Sep 2022|[PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting](https://arxiv.org/abs/2210.08964)|University of New South Wales|TKDE'23|General|Forecasting|BART, BigBird, RoBERTa, etc.
-19 Oct 2022|[TabLLM: Few-shot Classification of Tabular Data with Large Language Models](https://arxiv.org/abs/2210.10723)|MIT, University of Münster|AISTATS'23|Table|Classification|T0, GPT-3
 30 Mar 2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg, Johns Hopkins University|Preprint|Finance|Sentiment Analysis, NER, QA, etc.|BloombergGPT
 10 Apr 2023|[The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges](https://arxiv.org/abs/2304.05351)|Wuhan University, Southwest Jiaotong University, etc.|Preprint|Finance|Forecasting|ChatGPT
 24 May 2023|[Large Language Models are Few-Shot Health Learners](https://arxiv.org/abs/2305.15525)|Google|Preprint|Health|Classification, Regression|PaLM
-10 Jul 2023|[Large Language Models as General Pattern Machines](https://arxiv.org/abs/2307.04721)|Stanford University, Google DeepMind, etc.|CoRL'23|General|Forecasting, Translation, etc.|GPT-3, PaLM
-29 Aug 2023|[Where Would I Go Next? Large Language Models as Human Mobility Predictors](https://arxiv.org/abs/2308.15197)|University College London, University of Liverpool|Preprint|Mobility|Forecasting|GPT-3.5
-7 Oct 2023|[Large Language Models for Spatial Trajectory Patterns Mining](https://arxiv.org/abs/2310.04942)|Emory University|Preprint|Mobility|Anomaly Detection|GPT-3.5, GPT-4, Claude-2
 11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|Forecasting|GPT-3, LLaMA-2 
-26 Oct 2023|[Utilizing Language Models for Energy Load Forecasting](https://arxiv.org/abs/2310.17788)|University of New South Wales|BuildSys'23|Energy|Forecasting|BART, Bigbird, Pegasus
 16 Feb 2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities](https://arxiv.org/abs/2402.10835)| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|Forecasting|GPT-3.5, GPT-4, LLaMA-2
 25 Feb 2024|[LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting](https://arxiv.org/abs/2402.16132)|Georgia Institute of Technology, Microsoft Research Asia|Preprint|General|Forecasting|GPT-3.5, GPT-4
 2 Mar 2024|[Evaluating Large Language Models as Virtual Annotators for Time-series Physical Sensing Data](https://arxiv.org/abs/2403.01133)|Indian Institute of Technology, Kharagpur, Nokia Bell Labs|Preprint|IoT|Classification|GPT-4
-
-Date|Paper|Institute|Conference|Domain|Task|LLM
-----|---------------------|----|----|----|----|----
 7 Sep 2022|[AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/abs/2209.03143)|Google|Preprint|Audio|Generation|w2v-BERT
 30 Sep 2022|[AudioGen: Textually Guided Audio Generation](https://arxiv.org/abs/2209.15352)|Meta, The Hebrew University of Jerusalem|ICLR'23|Audio|Generation|Transformer
 9 Mar 2023|[Text-to-ECG: 12-Lead Electrocardiogram Synthesis conditioned on Clinical Text Reports](https://arxiv.org/abs/2303.09395)|KAIST, Medical AI Inc., etc.|ICASSP'23|Health|Generation|Transformer
@@ -82,9 +73,6 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 12 Mar 2024|[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815)|Amazon Web Services, UC San Diego, etc.|Preprint|General|Forecasting|T5
 19 Mar 2024|[Advancing Time Series Classification with Multimodal Language Modeling](https://arxiv.org/abs/2403.12371)|University of Science and Technology of China|Preprint|General|Classification|GPT-2
 19 Mar 2024|[Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model](https://arxiv.org/abs/2403.12372)|University of Science and Technology of China, Kuaishou Technology|Preprint|General|Classification|BERT, GPT-2
-
-Date|Paper|Institute|Conference|Domain|Task|LLM
-----|---------------------|----|----|----|----|----
 5 Dec 2021|[Open Vocabulary Electroencephalography-To-Text Decoding and Zero-shot Sentiment Classification](https://arxiv.org/abs/2112.02690)|UIUC|AAAI'22|Health|Translation, Classification|BART
 29 Mar 2022|[WAVPROMPT: Towards Few-Shot Spoken Language Understanding with Frozen Language Models](https://arxiv.org/abs/2203.15863)|UIUC, MIT-IBM Watson AI Lab, etc.|Preprint|Audio|Classification|GPT-2
 10 Aug 2022|[Can Brain Signals Reveal Inner Alignment with Human Languages?](https://arxiv.org/abs/2208.06348)|CMU, MIT, etc.|EMNLP'23 Findings|Health|Sentiment Analysis, Relation Detection|BERT
@@ -113,9 +101,6 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 9 Mar 2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut, Morgan Stanley|Preprint|General|Forecasting|GPT-2
 12 Mar 2024|[Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation](https://arxiv.org/abs/2403.07300)|Tsinghua University, Shenzhen University|Preprint|General|Forecasting|GPT-2
 24 Mar 2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|Finance|Forecasting|GPT-2, BERT
-
-Date|Paper|Institute|Conference|Domain|Task|LLM
-----|---------------------|----|----|----|----|----
 26 Oct 2022|[IMU2CLIP: Multimodal Contrastive Learning for IMU Motion Sensors from Egocentric Videos and Text](https://arxiv.org/abs/2210.14395)|Meta|EMNLP'23 Findings|IoT|Classification, Retrieval|CLIP
 17 Jan 2023|[Leveraging Vision-Language Models for Granular Market Change Prediction](https://arxiv.org/abs/2301.10166)|Johannes Kepler University Linz, Linz Institute of Technology|AAAI'23 Workshop|Finance|Forecasting|CLIP
 4 May 2023|[Generating Virtual On-body Accelerometer Data from Virtual Textual Descriptions for Human Activity Recognition](https://arxiv.org/abs/2305.03187)|Georgia Institute of Technology|ISWC'23|IoT|Generation|ChatGPT
@@ -123,9 +108,6 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 25 May 2023|[PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355)|University of Cambridge, Nara Institute of Science and Technology, etc.|Preprint|Audio, IoT|QA, Generation|ImageBind, Vicuna
 27 Sep 2023|[AnyMAL: An Efficient and Scalable Any-Modality Augmented Language Model](https://arxiv.org/abs/2309.16058)|Meta|Preprint|Audio, IoT|Generation, QA, etc.|CLIP, LLaMA-2
 27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|Generation|LLaVA, GPT-4
-
-Date|Paper|Institute|Conference|Domain|Task|LLM
-----|---------------------|----|----|----|----|----
 1 Jan 2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition](https://arxiv.org/abs/2301.03462)|UC San Diego, Amazon|CIKM'23|IoT|Classification|ImageBind, GPT-4
 10 Jun 2023|[Language-Guided Traffic Simulation via Scene-Level Diffusion](https://arxiv.org/abs/2306.06344)|Columbia University, NVIDIA Research|CoRL'23|Traffic|Generation|GPT-4
 31 Jul 2023|[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|Tsinghua University, ModelBest Inc., etc.|ICLR'24|General|Forecasting|LLaMA
