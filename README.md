@@ -1,6 +1,4 @@
-# Aligning-TSD-with-LLM
-
-More details in [Aligning Time Series Data with Large Language Models: A Survey](https://arxiv.org/abs/2402.01801).
+# Aligning Time Series Data with Large Language Models: A Survey
 
 <!--[New🔥] Our survey paper is submitted to IJCAI 2024, survey track! -->
 
@@ -10,26 +8,29 @@ If you find some ignored papers, **feel free to *create pull requests*, *open is
 
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 
-![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
-<center>Figure 1. Overview of aligning time series data with LLMs. LLMs have recently been aligned on the modality, domain, and dimension of time series by the TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM methods, in which the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The transparent icons represent options.</center>
+![./taxonomy-motivation.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-motivation.png)
+<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Large Model (TSLM), and LLMs (TSLLM). TSLLM has more general knowledge than TSPFM and TSLM, and we focus on its alignment. The gray boxes denote external input, while the dashed arrows indicate internal translation.</center>
 
 ### Motivation and Contribution:
 
 The increased use of aligned LLMs in time series data mining can enhance pattern recognition and reasoning across different domains and lay the foundation for general artificial intelligence that can understand and process common temporal data. **Our goal is to help practitioners optimize alignment methods by analyzing data based on time series data, thereby proposing ideas from data-driven to domain alignment and further studying areas that have not been fully explored**.
 
-In our survey, we explore the existing works and define an alignment space consisting of what characteristics of time series data they use to adapt LLMs, and their aligning method, as shown in Figure 1. We will summarize the related works and provide a comprehensive and up-to-date review of LLMs from three aspects of data: dimensions, modalities, and domains, while three alignment methods: Ts-Prompt-LLM, TS-for-LLM, and LLM-for-TS. In addition, we also discuss the relationship between them and potential future research opportunities to help further advance alignment work. In summary, the main contributions of this review include:
+In our survey, we explore the existing works and define an alignment space consisting of what characteristics of time series data they use to adapt LLMs, and their aligning method, as shown in Figure 1. We will summarize the related works and provide a comprehensive and up-to-date review of LLMs from three aspects of data: dimensions, modalities, and domains. The alignment targets are time series data and LLM, using alignment methods as a medium. The alignment methods include TS-\textbf{Prompt}-LLM, TS-\textbf{Adapt}-LLM, and TS-\textbf{Finetune}-LLM. For improved clarity, we provide a more intuitive representation as shown in Figure 2. In summary, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The main contributions of this survey include:
 
-1) We catalog papers on time series alignment based on LLMs that cover representative approaches since 2023.
-2) We systematically survey existing methods of alignment using LLMs, uniquely categorize data and alignment methods into three groups, and discuss the relationship.
-3) We discuss and highlight future directions that advance time series analysis with LLMs and encourage researchers and practitioner to further investigate this field.
-<br/>
+1) We provide a comprehensive and up-to-date review of related works on aligning time series data with LLMs.
+2) We categorize related works into three alignment methods: TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM respectively.
+3) We discuss the differences among alignment methods and highlight future opportunities, encouraging researchers and practitioners to explore.
 
-![./taxonomy-image.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-image.png)
-<center>Figure 2. Taxonomy of related works in semantic alignment methods. We categorize the works into three distinct types based on their focus for optimization: TS-Prompt-LLM (focus on text), TS-Adapt-LLM (focus on time series), and TS-Finetune-LLM (focus on training LLM). We present representative works for each category, organized by publication year. The icons on the left side of the text box represent the domains of time series, while those on the right side represent the modality of time series or the usage of LLM. The meaning of these icons is consistent with Figure 1. Each work is visually divided to indicate its focus on modalities, domains, dimensions, and LLM usages.</center>
+![./taxonomy-overview.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-overview.png)
+<center>Figure 2. Taxonomy of alignment methods. We categorize the related works into three methods organized by publication year: TS-Prompt-LLM (focus on trained text tokenizer), TS-Adapt-LLM (focus on trained external TS adapter), and TS-Finetune-LLM (focus on fine-tuned internal encoder and decoder), affected by domain, dimension, and modality respectively. For the related work that contains multiple alignment methods, we categorize based on the highest improvement of ablation experiments. The icons on the left side of the text box represent the domains, while those on the right side represent the modality or whether to train. The transparent icons represent optional items.</center>
 <br/>
 
 ### Taxonomy of Semantic Alignment Methods:
-Although the pre-trained foundation model demonstrates impressive zero-shot capabilities, aligning with this zero-shot reasoner can significantly improve when fine-tuned for specific tasks using few-shot training. We analyzed related work and found a bidirectional trend: from data to alignment method, the domain affects the design of the prompt, the dimensionality guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. From the alignment method to data, TS-Prompt-LLM focuses on text modality and channel-dependent multivariate design and uses both specific and general domains. TS-Adapt-LLM focuses on time series modality and channel-independent univariate design. TS-Finetune-LLM focuses on general domains and multivariate correlation, as shown in Figure 3. This illustrates the stages of alignment, starting from the prompt stage and moving through the adapter stage to the fine-tuning stage.
+We analyzed related works and found the relationship and research trend between time series data and alignment methods, as shown in Figure 3.
+
+**Bidirectional Relationships.** From the time series data to alignment methods, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The prior knowledge of the domain is dynamic and specific and is suitable for input into LLM by prompts. The univariate and multivariate dimensions, including trend, fluctuation, and periodic correlations, and whether the external adapter is designed to be channel-independent depends on the correlation. The understanding of modalities, including time series, text, vision, and each other high-dimensional modality, requires the design of corresponding encoders, and the inference of modalities requires the design of corresponding decoders. From the alignment method to time series data, TS-\textbf{Prompt}-LLM focuses on specific domains, multivariate, and text modality. TS-\textbf{Adapt}-LLM focuses on channel-independent univariate design and time series modality. TS-\textbf{Finetune}-LLM focuses on general domains and multivariate correlation. 
+
+**Research Trend.** The cost of the alignment method increases from the prompt stage to the internal encoder stage, and the closer to the internal optimization, the more overall improvements can be achieved. For the TS-\textbf{Prompt}-LLM, more prior knowledge allows for more effective communication with text data of the domain. As the initial stage of alignment, It has a lower alignment cost. For the TS-\textbf{Adapt}-LLM, an adapter is trained outside LLM as an external encoder layer. The time series is mapped to the corresponding word vector by the similarity matching of the adapter. For the TS-\textbf{Finetune}-LLM, the multivariate correlation within the general domain is optimized by designing the encoder or decoder and fine-tuning it.
 <br/>
 
 ![./taxonomy-xmind.png](https://github.com/Leeway-95/Aligning-Time-Series-Data-with-LLM/blob/main/taxonomy-xmind.png)
