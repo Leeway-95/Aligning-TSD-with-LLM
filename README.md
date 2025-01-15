@@ -69,7 +69,7 @@ Date|Paper|Institute|Conference|Domain|LLM
 6 Sep 2023|[ETP: Learning Transferable ECG Representations via ECG-Text Pre-training](https://arxiv.org/abs/2309.07145)|Imperial College London, The Ohio State University|Preprint|Health|BioClinicalBERT
 8 Oct 2023|[TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting](https://arxiv.org/abs/2310.04948)|University of Southern California, Google|ICLR'24|General|GPT-2
 26 Jan 2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection (AnomalyLLM)](https://arxiv.org/abs/2401.15123)|Zhejiang University|Preprint|General|GPT-2
-6 Mar 2024|[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data](https://arxiv.org/abs/2403.03645)|Institute for Infocomm Research, Nanyang Technological University|Preprint|General|CLIP,GPT-2
+6 Mar 2024|[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data](https://arxiv.org/abs/2403.03645)|Institute for Infocomm Research, Nanyang Technological University|Preprint|General|CLIP, GPT-2
 14 Aug 2024|[MedTsLLM: Leveraging LLMs for Multimodal Medical Time Series Analysis](https://arxiv.org/abs/2408.07773)|Department of Civil and Systems Engineering, Johns Hopkins University|MLHC'24|Health|LLaMA
 22 Jun 2023|[Instruct-FinGPT: Financial Sentiment Analysis by Instruction Tuning of General-Purpose Large Language Models](https://arxiv.org/abs/2306.12659)|Columbia University|FinLLM Symposium at IJCAI'23|Finance|LLaMA
 14 Oct 2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)|University of New South Wales, Sydney|Preprint|IoT|LLaMA
@@ -81,7 +81,7 @@ Date|Paper|Institute|Conference|Domain|LLM
 ---|---|---|---|---|---
 24 Nov 2023|[Understanding the Role of Textual Prompts in LLM for Time Series Forecasting: an Adapter View (ExplicitAdapters4TS)](https://arxiv.org/abs/2311.14782)|Alibaba|Preprint|General|GPT-2
 27 Oct 2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|CMU|NeurIPS'23 Workshop|Health|GPT-2, OPT
-14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|CLIP
+14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|CLIP, GPT-2
 16 Feb 2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities (TSFLLMs)](https://arxiv.org/abs/2402.10835)| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|GPT-3.5, GPT-4, LLaMA-2
 16 Aug 2023|[TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series](https://arxiv.org/pdf/2308.08241.pdf)|Peking University, Alibaba Group|ICLR'24|General|BERT, GPT-2, ChatGLM, etc.
 3 Oct 2023|[Time-LLM: Time Series Forecasting by Reprogramming Large Language Models](https://arxiv.org/abs/2310.01728)|Monash University, Ant Group, etc.|ICLR'24|General|LLaMA
@@ -92,6 +92,14 @@ Date|Paper|Institute|Conference|Domain|LLM
 27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|LLaVA, GPT-4
 9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|LLaMA
 10 Feb 2024|[REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via Large Language Models](https://arxiv.org/abs/2402.07016)|Beihang University, China Mobile Research Institute|Preprint|Health|BERT, BGE-M3, Qwen
+24 Oct 2024|[Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification (HiTime)](https://arxiv.org/abs/2410.18686)|State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China|Preprint|General|GPT-2
+23 Sep 2024|[TS-HTFA: Advancing Time Series Forecasting via Hierarchical Text-Free Alignment with Large Language Models](https://arxiv.org/abs/2409.14978)|School of Computer Science and Technology, East China Normal University|Preprint|General|GPT-2
+21 Oct 2024]|[LLM-TS Integrator: Integrating LLM for Enhanced Time Series Modeling](https://arxiv.org/pdf/2410.16489)|Borealis AI|Preprint|General|LLaMA
+24 Nov 2024]|[LeRet: Language-Empowered Retentive Network for Time Series Forecasting](https://www.ijcai.org/proceedings/2024/0460.pdf)|University of Science and Technology of China|Preprint|General|LLaMA
+22 Mar 2023]|[Frozen Language Model Helps ECG Zero-Shot Learning (METS)](https://arxiv.org/pdf/2303.12311)|College of Electronic Science and Engineering, Jilin University|MIDL'23|Health|BERT
+10 Aug 2022]|[Can Brain Signals Reveal Inner Alignment with Human Languages? (MATM)](https://arxiv.org/abs/2208.06348)|Carnegie Mellon University|EMNLP'23|Health|BERT
+25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|Faculty of Engineering and Information Technology University of Technology Sydney|Preprint|Health|BART
+13 August 2024|[GenG: An LLM-Based Generic Time Series Data Generation Approach for Edge Intelligence via Cross-Domain Collaboration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620716)|Future Network Research Center, Purple Mountain Laboratories|IEILM'24|IoT|LLaMA
 
 ### TS-Finetune-LLM:
 
