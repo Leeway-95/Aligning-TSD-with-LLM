@@ -56,52 +56,72 @@ We analyzed related works and found the relationship and research trend between 
 - [Citation](#citation)
 -->
 
-### Details:
+### TS-Prompt-LLM:
 
-Date|Paper|Institute|Conference|Domain|Task|LLM
-----|---------------------|----|----|----|----|----
-20 Sep 2022|[PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting](https://arxiv.org/abs/2210.08964)|University of New South Wales|TKDE'23|General|Forecasting|BART, BigBird, RoBERTa, etc.
-30 Mar 2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg, Johns Hopkins University|Preprint|Finance|Sentiment Analysis, NER, QA, etc.|BloombergGPT
-10 Apr 2023|[The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges](https://arxiv.org/abs/2304.05351)|Wuhan University, Southwest Jiaotong University, etc.|Preprint|Finance|Forecasting|ChatGPT
-24 May 2023|[Large Language Models are Few-Shot Health Learners](https://arxiv.org/abs/2305.15525)|Google|Preprint|Health|Classification, Regression|PaLM
-11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|Forecasting|GPT-3, LLaMA-2 
-16 Feb 2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities](https://arxiv.org/abs/2402.10835)| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|Forecasting|GPT-3.5, GPT-4, LLaMA-2
-25 Feb 2024|[LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting](https://arxiv.org/abs/2402.16132)|Georgia Institute of Technology, Microsoft Research Asia|Preprint|General|Forecasting|GPT-3.5, GPT-4
-19 Mar 2024|[Advancing Time Series Classification with Multimodal Language Modeling](https://arxiv.org/abs/2403.12371)|University of Science and Technology of China|Preprint|General|Classification|GPT-2
-19 Mar 2024|[Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model](https://arxiv.org/abs/2403.12372)|University of Science and Technology of China, Kuaishou Technology|Preprint|General|Classification|BERT, GPT-2
-21 Jan 2023|[Transfer Knowledge from Natural Language to Electrocardiography: Can We Detect Cardiovascular Disease Through Language Models?](https://arxiv.org/abs/2301.09017)|CMU, Allegheny General Hospital, etc.|EACL'23 Findings|Health|Generation, Classification|BERT, BART
-23 Feb 2023|[One Fits All:Power General Time Series Analysis by Pretrained LM](https://arxiv.org/abs/2302.11939)|Alibaba|NeurIPS'23|General|Forecasting, Classification, etc.|GPT-2
-16 Aug 2023|[TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series](https://arxiv.org/pdf/2308.08241.pdf)|Peking University, Alibaba Group|ICLR'24|General|Forecasting, Classification|BERT, GPT-2, ChatGLM, etc.
-16 Aug 2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|Preprint|General|Forecasting|GPT-2
-6 Sep 2023|[ETP: Learning Transferable ECG Representations via ECG-Text Pre-training](https://arxiv.org/abs/2309.07145)|Imperial College London, The Ohio State University|Preprint|Health|Classification|BioClinicalBERT
-3 Oct 2023|[Time-LLM: Time Series Forecasting by Reprogramming Large Language Models](https://arxiv.org/abs/2310.01728)|Monash University, Ant Group, etc.|ICLR'24|General|Forecasting|LLaMA
-8 Oct 2023|[TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting](https://arxiv.org/abs/2310.04948)|University of Southern California, Google|ICLR'24|General|Forecasting|GPT-2
-15 Oct 2023|[UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting](https://arxiv.org/abs/2310.09751)|National University of Singapore, The Hong Kong University of Science and Technology|WWW'24|General|Forecasting|GPT-2
-27 Oct 2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|CMU|NeurIPS'23 Workshop|Health|Captioning, QA|GPT-2, OPT
-14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|Classification|CLIP
-26 Jan 2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection](https://arxiv.org/abs/2401.15123)|Zhejiang University|Preprint|General|Anomaly Detection|GPT-2
-4 Feb 2024|[AutoTimes: Autoregressive Time Series Forecasters via Large Language Models](https://arxiv.org/abs/2402.02370)|Tsinghua University|Preprint|General|Forecasting|LLaMA, GPT-2, OPT
-7 Feb 2024|[Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning](https://arxiv.org/abs/2402.04852)|The Chinese University of Hong Kong, Tongji University, etc.|Preprint|General|Forecasting, Anomaly Detection|GPT-2
-9 Mar 2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut, Morgan Stanley|Preprint|General|Forecasting|GPT-2
-12 Mar 2024|[CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning](https://arxiv.org/abs/2403.07300)|Tsinghua University, Shenzhen University|Preprint|General|Forecasting|GPT-2
-24 Mar 2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|Finance|Forecasting|GPT-2, BERT
-9 May 2023|[ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665)|Meta|CVPR'23|Audio, IoT|Classification, Retrieval|CLIP
-27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|Generation|LLaVA, GPT-4
-9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|Forecasting|LLaMA
-10 Feb 2024|[REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via Large Language Models](https://arxiv.org/abs/2402.07016)|Beihang University, China Mobile Research Institute|Preprint|Health|Classification|BERT, BGE-M3, Qwen
-6 Mar 2024|[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data](https://arxiv.org/abs/2403.03645)|Institute for Infocomm Research, Nanyang Technological University|Preprint|General|Classification, Regression|CLIP
+Date|Paper|Institute|Conference|Domain|LLM
+---|---|---|---|---|---
+20 Sep 2022|[PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting](https://arxiv.org/abs/2210.08964)|University of New South Wales|TKDE'23|General|BART, BigBird, RoBERTa, etc.
+30 Mar 2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg, Johns Hopkins University|Preprint|Finance|BloombergGPT
+10 Apr 2023|[The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges](https://arxiv.org/abs/2304.05351)|Wuhan University, Southwest Jiaotong University, etc.|Preprint|Finance|ChatGPT
+24 May 2023|[Large Language Models are Few-Shot Health Learners](https://arxiv.org/abs/2305.15525)|Google|Preprint|Health|PaLM
+11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters (LLMTime)](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|GPT-3, LLaMA-2 
+25 Feb 2024|[LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting](https://arxiv.org/abs/2402.16132)|Georgia Institute of Technology, Microsoft Research Asia|Preprint|General|GPT-3.5, GPT-4
+21 Jan 2023|[Transfer Knowledge from Natural Language to Electrocardiography: Can We Detect Cardiovascular Disease Through Language Models? (ECG-LLM)](https://arxiv.org/abs/2301.09017)|CMU, Allegheny General Hospital, etc.|EACL'23 Findings|Health|BERT, BART
+6 Sep 2023|[ETP: Learning Transferable ECG Representations via ECG-Text Pre-training](https://arxiv.org/abs/2309.07145)|Imperial College London, The Ohio State University|Preprint|Health|BioClinicalBERT
+8 Oct 2023|[TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting](https://arxiv.org/abs/2310.04948)|University of Southern California, Google|ICLR'24|General|GPT-2
+26 Jan 2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection (AnomalyLLM)](https://arxiv.org/abs/2401.15123)|Zhejiang University|Preprint|General|GPT-2
+6 Mar 2024|[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data](https://arxiv.org/abs/2403.03645)|Institute for Infocomm Research, Nanyang Technological University|Preprint|General|CLIP
+14 Aug 2024|[MedTsLLM: Leveraging LLMs for Multimodal Medical Time Series Analysis]([https://arxiv.org/abs/2210.08964](https://arxiv.org/abs/2408.07773))|Department of Civil and Systems Engineering, Johns Hopkins University|MLHC'24|Health|LLama2-7B
 
-Dataset|Domain|Modality|Size|Task
--------|------|--------|----------|----
-[Ego4D](https://ego4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, 3D|3, 670h data, 3.85M narrations|Classification, Forecasting, etc.
-[Ego-Exo4D](https://ego-exo4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, Eye Gaze, Pose, 3D|1,422h data|Classification, Translation, etc.
-[DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Text, IMU|25h data, 91K questions|Classification, Question Answering
-[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Text, Tables|136K instruction data|NER, QA, Forecasting, etc.
-[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Text, Time Series|6 datasets, 2K timesteps in total|Forecasting
-[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Text, Time Series|29.7M stock prices, 15.7M news records|Forecasting, Anomaly Detection, etc.
-[Zuco 2.0](https://osf.io/2urht/)|Health|Text, Eye Tracking, EEG|739 sentences|Classification, Generation
-[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|Text, ECG|60h data, 71 unique statements|Classification
-[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|Text, ECG|70 question templates|Classification, QA
+### TS-Adapter-LLM:
+
+Date|Paper|Institute|Conference|Domain|LLM
+---|---|---|---|---|---
+27 Oct 2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|CMU|NeurIPS'23 Workshop|Health|GPT-2, OPT
+14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|CLIP
+16 Feb 2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities (TSFLLMs)](https://arxiv.org/abs/2402.10835)| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|GPT-3.5, GPT-4, LLaMA-2
+16 Aug 2023|[TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series](https://arxiv.org/pdf/2308.08241.pdf)|Peking University, Alibaba Group|ICLR'24|General|BERT, GPT-2, ChatGLM, etc.
+3 Oct 2023|[Time-LLM: Time Series Forecasting by Reprogramming Large Language Models](https://arxiv.org/abs/2310.01728)|Monash University, Ant Group, etc.|ICLR'24|General|LLaMA
+15 Oct 2023|[UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting](https://arxiv.org/abs/2310.09751)|National University of Singapore, The Hong Kong University of Science and Technology|WWW'24|General|GPT-2
+19 Mar 2024|[Advancing Time Series Classification with Multimodal Language Modeling (InstructTime)](https://arxiv.org/abs/2403.12371)|University of Science and Technology of China|Preprint|General|GPT-2
+19 Mar 2024|[Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model (CrossTimeNet)](https://arxiv.org/abs/2403.12372)|University of Science and Technology of China, Kuaishou Technology|Preprint|General|BERT, GPT-2
+4 Feb 2024|[AutoTimes: Autoregressive Time Series Forecasters via Large Language Models](https://arxiv.org/abs/2402.02370)|Tsinghua University|Preprint|General|LLaMA, GPT-2, OPT
+27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|LLaVA, GPT-4
+9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|LLaMA
+10 Feb 2024|[REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via Large Language Models](https://arxiv.org/abs/2402.07016)|Beihang University, China Mobile Research Institute|Preprint|Health|BERT, BGE-M3, Qwen
+
+### TS-Finetune-LLM:
+
+Date|Paper|Institute|Conference|Domain|LLM
+---|---|---|---|---|---
+23 Feb 2023|[One Fits All:Power General Time Series Analysis by Pretrained LM (GPT4TS)](https://arxiv.org/abs/2302.11939)|Alibaba|NeurIPS'23|General|GPT-2
+16 Aug 2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|Preprint|General|GPT-2
+7 Feb 2024|[Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning (aLLM4TS)](https://arxiv.org/abs/2402.04852)|The Chinese University of Hong Kong, Tongji University, etc.|Preprint|General|GPT-2
+9 Mar 2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut, Morgan Stanley|Preprint|General|GPT-2
+24 Mar 2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|Finance|GPT-2, BERT
+12 Mar 2024|[CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning](https://arxiv.org/abs/2403.07300)|Tsinghua University, Shenzhen University|Preprint|General|GPT-2
+
+### Dataset
+
+Dataset|Domain|Dimensions|Modality|Size
+---|---|---|---|---
+[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|Multivariate|Text, ECG|70 question templates
+[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|Multivariate|Text, ECG|60h data, 71 unique statements
+[Zuco 2.0](https://osf.io/2urht/)|Health|Multivariate|Text, EEG|739 sentences
+[MIMIC-III](https://github.com/MIT-LCP/mimic-code)|Health|Multivariate|Text, Time Series|53,423 adult patients, 7,870 newborns
+[CirCor](https://github.com/nttcslab/m2d/tree/master/app/circor)|Health|Multivariate|Time Series|1,568 patients, 5,282 records, 215,780 samples
+[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Multivariate|Text, Time Series|6 datasets, 2K timesteps in total
+[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Multivariate|Text, Time Series|136K instruction data
+[StockNet](https://github.com/yumoxu/stocknet-dataset)|Finance|Multivariate|Text, Time Series|8 stocks, 26,614 samples
+[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Multivariate|Text, Time Series|29.7M stock prices, 15.7M news records
+[Ego4D](https://ego4d-data.org/)|IoT|Multivariate|Text, IMU|3,670h data, 3.85M narrations
+[DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Multivariate|Text, IMU|25h data, 91K questions
+[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
+
+
+[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
+[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
+[M4](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
 
 ## Citation
 
