@@ -16,7 +16,7 @@ With the advancement of Large Language Models (LLMs), increased research has foc
 </div>
 <center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Large Model (TSLM), and LLMs (TSLLM). TSLLM has more general knowledge than TSPFM and TSLM, and we focus on its alignment. The gray boxes denote external input, while the dashed arrows indicate internal translation.</center>
 <br/><br/>
-Recent surveys provide a broad overview of various time-series tasks using LLMs, including forecasting, anomaly detection, classification, and other general tasks. Instead of focusing on specific tasks, we will discuss three attributes of time series: domains, dimensions, and modalities. Time series data collected from a variety of fields, including healthcare, finance, the Internet of Things (IoT), and general domains, which categorized into univariate and multivariate dimensions, using different modalities: TS, text, and others.  The alignment targets are time series data and LLM, using alignment methods as a medium. The alignment methods include TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM. For improved clarity, we provide a more intuitive representation as shown in Figure 2. In summary, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The main contributions of this survey include:
+Recent surveys provide a broad overview of various time-series tasks using LLMs, including forecasting, anomaly detection, classification, and other general tasks. Instead of focusing on specific tasks, we will discuss three attributes of time series: domains, dimensions, and modalities. Time series data collected from a variety of fields, including healthcare, finance, the Internet of Things (IoT), and general domains, which categorized into univariate and multivariate dimensions, using different modalities: Time Series (TS), text, and others.  The alignment targets are time series data and LLM, using alignment methods as a medium. The alignment methods include TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM. For improved clarity, we provide a more intuitive representation as shown in Figure 2. In summary, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The main contributions of this survey include:
 
 1) We provide a comprehensive and up-to-date review of related works on aligning time series data with LLMs.
    
@@ -108,20 +108,18 @@ Dataset|Domain|Dimensions|Modality|Size
 [ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|Multivariate|Text, ECG|70 question templates
 [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|Multivariate|Text, ECG|60h data, 71 unique statements
 [Zuco 2.0](https://osf.io/2urht/)|Health|Multivariate|Text, EEG|739 sentences
-[MIMIC-III](https://github.com/MIT-LCP/mimic-code)|Health|Multivariate|Text, Time Series|53,423 adult patients, 7,870 newborns
-[CirCor](https://github.com/nttcslab/m2d/tree/master/app/circor)|Health|Multivariate|Time Series|1,568 patients, 5,282 records, 215,780 samples
-[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Multivariate|Text, Time Series|6 datasets, 2K timesteps in total
-[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Multivariate|Text, Time Series|136K instruction data
-[StockNet](https://github.com/yumoxu/stocknet-dataset)|Finance|Multivariate|Text, Time Series|8 stocks, 26,614 samples
-[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Multivariate|Text, Time Series|29.7M stock prices, 15.7M news records
+[MIMIC-III](https://github.com/MIT-LCP/mimic-code)|Health|Multivariate|Text, TS|53,423 adult patients, 7,870 newborns
+[CirCor](https://github.com/nttcslab/m2d/tree/master/app/circor)|Health|Multivariate|TS|1,568 patients, 5,282 records, 215,780 samples
+[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Multivariate|Text, TS|6 datasets, 2K timesteps in total
+[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Multivariate|Text, TS|136K instruction data
+[StockNet](https://github.com/yumoxu/stocknet-dataset)|Finance|Multivariate|Text, TS|8 stocks, 26,614 samples
+[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Multivariate|Text, TS|29.7M stock prices, 15.7M news records
 [Ego4D](https://ego4d-data.org/)|IoT|Multivariate|Text, IMU|3,670h data, 3.85M narrations
 [DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Multivariate|Text, IMU|25h data, 91K questions
 [Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
-
-
-[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
-[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
-[M4](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
+[M4](https://github.com/Mcompetitions/M4-methods))|General|Univariate|TS, Text|100,000 timestep data
+[UEA](https://www.timeseriesclassification.com))|General|Multivariate|TS|30 datasets, 50,000 timestep
+[UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data))|General|Univariate|TS|128 datasets 
 
 ## Citation
 
