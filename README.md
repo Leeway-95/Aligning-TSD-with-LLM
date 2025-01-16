@@ -137,9 +137,9 @@ Dataset|Domain|Dimensions|Modality|Size
 [Ego4D](https://ego4d-data.org/)|IoT|Multivariate|Text, IMU|3,670h data, 3.85M narrations
 [DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Multivariate|Text, IMU|25h data, 91K questions
 [Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
-[M4](https://github.com/Mcompetitions/M4-methods))|General|Univariate|TS, Text|100,000 timestep data
-[UEA](https://www.timeseriesclassification.com))|General|Multivariate|TS|30 datasets, 50,000 timestep
-[UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data))|General|Univariate|TS|128 datasets 
+[M4](https://github.com/Mcompetitions/M4-methods)|General|Univariate|TS, Text|100,000 timestep data
+[UEA](https://www.timeseriesclassification.com)|General|Multivariate|TS|30 datasets, 50,000 timestep
+[UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data)|General|Univariate|TS|128 datasets 
 
 ## Citation
 
