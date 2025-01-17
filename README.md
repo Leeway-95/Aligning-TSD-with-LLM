@@ -1,10 +1,12 @@
 # Aligning Time Series Data with Large Language Models: A Survey
 
-<!--[New🔥] Our survey paper is submitted to IJCAI 2024, survey track! -->
-
 This repository is activately maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly.
 
-If you find some ignored papers, **feel free to *create pull requests*, *open issues*, or *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
+If you find some ignored papers, feel free to create pull requests, open issues, or *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
+
+### Updates:
+
+[New🔥] (2025.2.11) Our survey paper is submitted to **IJCAI 2025, survey track**!
 
 ### Motivation and Contribution:
 
@@ -16,7 +18,8 @@ With the advancement of Large Language Models (LLMs), increased research has foc
 </div>
 <center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Large Model (TSLM), and LLMs (TSLLM). TSLLM has more general knowledge and unified tasks than TSPFM and TSLM, and we focus on its alignment. The gray boxes denote external input.</center>
 <br/><br/>
-Recent surveys provide a broad overview of various time-series tasks using LLMs, including forecasting, anomaly detection, classification, and other general tasks. Instead of focusing on specific tasks, we will discuss three attributes of time series: domains, dimensions, and modalities. Time series data collected from a variety of fields, including healthcare, finance, the Internet of Things (IoT), and general domains, which categorized into univariate and multivariate dimensions, using different modalities: Time Series (TS), text, and others.  The alignment targets are time series data and LLM, using alignment methods as a medium. The alignment methods include TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM. For improved clarity, we provide a more intuitive representation as shown in Figure 2. In summary, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The main contributions of this survey include:
+
+As shown in Figure 1, we have witnessed the potential for time series data with TSPFM, TSLM, and TSLLM, which are like domain engineers focusing on specific tasks such as iTransformer, experts with domain cognition such as Time-MOE, and robots with general cognition such as Time-LLM, respectively. Recent surveys provide a broad overview of various time-series tasks using LLMs, including forecasting, anomaly detection, classification, and other general tasks. Instead of focusing on specific tasks, we will discuss three attributes of time series: domains, dimensions, and modalities. Time series data collected from a variety of fields, including healthcare, finance, the Internet of Things (IoT), and general domains, which categorized into univariate and multivariate dimensions, using different modalities: Time Series (TS), text, and others.  The alignment targets are time series data and LLM, using alignment methods as a medium. The alignment methods include TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM. For improved clarity, we provide a more intuitive representation as shown in Figure 2. In summary, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The main contributions of this survey include:
 
 1) We provide a comprehensive and up-to-date review of related works on aligning time series data with LLMs.
    
@@ -32,14 +35,13 @@ Recent surveys provide a broad overview of various time-series tasks using LLMs,
 <br/>
 
 ### Taxonomy of Semantic Alignment Methods:
-We analyzed related works and found the relationship and research trend between time series data and alignment methods, as shown in Figure 3.
+We analyzed related works and found the bidirectional relationship and research trend between time series data and alignment methods, as shown in Figure 3. **You can download the project to get all the papers mentioned in our survey at once!**
+
 <div align="center">
     <img src="./taxonomy-xmind.png" width="1200" />
 </div>
 <center>Figure 3. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., general, healthcare, finance, IoT), data modalities (e.g., TS, text), and data dimensions (e.g., multivariate, univariate).</center>
 <br/><br/>
-
-**You can download the project to get all the papers mentioned in our survey at once!**
 
 **Bidirectional Relationships.** From the time series data to alignment methods, the domain affects the design of the prompt, the dimension guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. The prior knowledge of the domain is dynamic and specific and is suitable for input into LLM by prompts. The univariate and multivariate dimensions, including trend, fluctuation, and periodic correlations, and whether the external adapter is designed to be channel-independent depends on the correlation. The understanding of modalities, including time series, text, vision, and each other high-dimensional modality, requires the design of corresponding encoders, and the inference of modalities requires the design of corresponding decoders. From the alignment method to time series data, TS-Prompt-LLM focuses on specific domains, multivariate, and text modality. TS-Adapt-LLM focuses on channel-independent univariate design and time series modality. TS-Finetune-LLM focuses on general domains and multivariate correlation. 
 
