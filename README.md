@@ -110,8 +110,8 @@ Date|Paper|Institute|Conference|Domain|LLM
 16 Dec 2024|[ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data](https://arxiv.org/abs/2412.11376)|Beijing University of Posts and Telecommunications|Preprint|General|LLaMA-2
 4 Dec 2024|[ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104)|Tsinghua University|Preprint|General|QWen-2.5
 27 Nov 2024|[LLM-ABBA: Understanding time series via symbolic approximation](https://arxiv.org/abs/2411.18506)|Department of Numerical Mathematics, Charles University|Preprint|General|Mistral-7B
-30 Jul 2024|[A federated large language model for long-term time series forecasting](https://arxiv.org/abs/2407.20503)|Concordia Universit|Preprint|General|LLaMA
-20 Jun 2024|[Understanding Different Design Choices in Training Large Time Series Models](https://arxiv.org/abs/2406.14045)|Rice University|Preprint|General|GPT-2, Phi-2
+30 Jul 2024|[A federated large language model for long-term time series forecasting (FedTime)](https://arxiv.org/abs/2407.20503)|Concordia Universit|Preprint|General|LLaMA
+20 Jun 2024|[Understanding Different Design Choices in Training Large Time Series Models (LTSM-Bundle)](https://arxiv.org/abs/2406.14045)|Rice University|Preprint|General|GPT-2, Phi-2
 7 Jun 2024|[DualTime: A Dual-Adapter Multimodal Language Model for Time Series Representation](https://arxiv.org/abs/2406.06620)|Hong Kong University of Science and Technology|Preprint|General|GPT-2, BERT
 3 Jun 2024|[TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment](https://arxiv.org/abs/2406.01638)|S-Lab, Nanyang Technological University|Preprint|General|GPT-2
 24 Mar 2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|Finance|GPT-2, BERT
