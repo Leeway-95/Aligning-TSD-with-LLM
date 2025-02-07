@@ -16,7 +16,7 @@ With the advancement of Large Language Models (LLMs), increased research has foc
 <div align="center">
     <img src="./taxonomy-motivation.png" width="800" />
 </div>
-<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Large Model (TSLM), and LLMs (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs.</center>
+<center>Figure 1. Comparison of Time-Series Pretrained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs.</center>
 <br/><br/>
 
 
