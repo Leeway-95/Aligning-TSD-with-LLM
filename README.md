@@ -6,38 +6,57 @@ If you find some ignored papers, feel free to create pull requests, open issues,
 
 ### Updates:
 
-[New🔥] (2025.2.11) Our survey paper is submitted to **IJCAI 2025, survey track**!
+[New🔥] (2025.2.11) Our survey paper is submitted to **IJCAI 2025, Survey Track**!
 
 ### Motivation and Contribution:
 
-With the advancement of Large Language Models (LLMs), increased research has focused on aligning various fields with LLMs, providing unprecedented zero-shot and few-shot support, such as time-series field. **Our goal is to assist practitioners in exploring the novel paradigm for time series with LLMs that remains under-researched in data intelligence**.
+With the emergence of Large Language Models (LLMs), increased attention has been devoted in different fields, including in time-series analysis, to exploiting the capabilities of LLMs, such as their unprecedented zero-shot capabilities. Time series data occurs across numerous application domains, such as healthcare, finance, and Internet-of-Things (IoT). However, methods targeting predictive tasks such as forecasting, anomaly detection, interpolation, and classification, are often associated with high training costs, while offering only limited generalizability and insufficient accuracy.  While recent surveys provide a broad perspective on methods targeting such predictive tasks, we focus on the exploitation of LLMs to improve cost-efficiency, flexibility, and effectiveness. **Aligning time series data with LLMs refers to adapting time series data or LLMs to accomplish LLMs effectively understand time series data to reason cognitively**.
+
+
 <br/>
 
 <div align="center">
-    <img src="./taxonomy-motivation.png" width="800" />
+    <img src="./taxonomy-motivation.png" width="900" />
 </div>
-<center>Figure 1. Comparison of Time-Series Pretrained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs.</center>
+<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs. Our survey focuses on studies belonging to the TSLLM paradigm.</center>
 <br/><br/>
 
+As shown in Figure 1, existing studies can be categorized according to three paradigms: (1) TSPFM represents a domain engineer who discovers and solves predictive tasks on time-series problems for predictive tasks; (2) TSLM represents a domain expert with prior domain knowledge targeting predictive tasks; (3) TSLLM represents a cognitive agent with prior general knowledge targeting cognitive tasks, such as action planning, impact analysis, general queries and answers (Q\&A), and time series editing. TSLLMs and TSLMs with large numbers of parameters have better zero-shot support than TSPFMs. The predictive tasks serve as tools to accomplish cognitive tasks, and extra knowledge is retrieved to improve predictive performance.
 
-As shown in Figure 1, the related works can be categorized in three paradigms: (1) TSPFM is a domain engineer who discovers and solves time-series problems for predictive tasks such as iTransformer; (2) TSLM is a domain expert with prior domain knowledge for predictive tasks such as Time-MoE; (3) TSLLM is a cognitive agent with prior general knowledge for cognitive tasks which activate LLM as a brain, such as action planning, impact analysis, general queries and answers (Q\&A) and time series editing. The cognitive tasks focus on reasoning and creative manipulation of time series. Our survey focuses on the alignment in the TSLLM paradigm.
 
-
-We analyze three important attributes of time series data: domain, characteristic, and modality. For improved clarity, we provide an intuitive representation as shown in Figure 2. Time series data collected from a variety of fields, such as healthcare, finance, and network, which categorized into temporal and spatial characteristics, using different modalities, such as Time Series (TS), text. The spatial characteristic includes univariate and multivariate, while the temporal characteristic includes stability, trend, noise, and period. In summary, the alignment targets are time series data and LLM. Moreover, the domain affects the external prompt layer; the characteristic guides the external adapter layer, and the modality determines the internal encoder layer, respectively. The main contributions of this survey include:
-
-1) We provide a comprehensive survey of aligning time series data with LLM in the TSLLM paradigm.
-   
-2) We categorize the related works into three alignment methods: TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM respectively.
-   
-3) Additionally, we highlight future opportunities, encouraging researchers and practitioners to explore.
+**The performance of the TSLLM paradigm in predictive tasks arises from the intrinsic characteristics and structure of time series data. Therefore, we focus on time series data instead of predictive tasks**.
 
 
 <br/>
 <div align="center">
     <img src="./taxonomy-overview.png" width="1200" />
 </div>
-<center>Figure 2. Taxonomy of alignment methods. We categorize the related works into three methods organized by publication year: TS-Prompt-LLM (focus on trained external text tokenizer), TS-Adapt-LLM (focus on trained external TS adapter), and TS-Finetune-LLM (focus on finetuned internal encoder and decoder), affected by domain, characteristic, and modality respectively. For the related works that contain multiple alignment methods, we categorize them based on the highest improvement of ablation experiments. The icons on the left side of the text box represent the domains, while those on the right side represent the modality.</center>
+<center>Figure 2. Taxonomy of alignment methods. We categorize existing methods according to three categories and organize them chronologically: TS-Prompt-LLM (focusing on the external text tokenizer), TS-Adapt-LLM (focusing on the external TS adapter), and TS-Finetune-LLM (focusing on the internal encoder and decoder), affected by domain, characteristic, and modality. Icons to the left of a method indicate the domain, with no icon indicating that the method is general, while icons to the right indicate modalities.</center>
 <br/>
+<br/>
+
+For clarity, we provide an intuitive representation in Figure 2. The alignment targets are time series data and LLMs. We consider three important attributes of time series data: domain, characteristic, and modality. Time series data is collected in a variety of domains, such as healthcare, finance, and IoT, which can be characterized according to different temporal and spatial characteristics, and involve different modalities. The spatial characteristics include independent and dependent channel correlation, while the temporal characteristics include stationarity, trend, noise, and period. The main contributions of this survey include:
+
+1) We provide a comprehensive survey of the alignment of time series data with LLMs in the TSLLM paradigm.
+   
+2) We categorize and discover existing methods according to three alignment methods.
+   
+3) We highlight future opportunities for researchers and practitioners to explore.
+   
+
+<br/>
+<div align="center">
+    <img src="./taxonomy-definition.png" width="1000" />
+</div>
+
+<br/>
+<div align="center">
+    <img src="./taxonomy-boundary.png" width="400" />
+</div>
+<center>Figure 4. The example of alignment in healthcare domain and the capability boundaries of three alignment methods.</center>
+<br/>
+<br/>
+
 
 ### Taxonomy of Semantic Alignment Methods:
 We analyzed related works and found the bidirectional relationship and research trend between time series data and alignment methods, as shown in Figure 3. **You can download the project to get all the papers mentioned in our survey at once!**
@@ -45,14 +64,14 @@ We analyzed related works and found the bidirectional relationship and research 
 <div align="center">
     <img src="./taxonomy-xmind.png" width="1200" />
 </div>
-<center>Figure 3. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., healthcare, finance, network, general-purpose), data modalities (e.g., TS, text), and data characteristics (channel-independent design for univariate and channel-dependent design for multivariate).</center>
+<center>Figure 5. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., healthcare, finance, network, general-purpose), data modalities (e.g., TS, text), and data characteristics (channel-independent design for univariate and channel-dependent design for multivariate).</center>
 <br/><br/>
 
-**Bidirectional Relationships.** This is a stable relationship between time series data and alignment methods of LLM: (1) from time series data to alignment methods. Domain knowledge is usually dynamic, specific, and suitable for prompt input into LLM. The correlation between the temporal and spatial characteristics guides the channel design, in which the external adapter is guided by channel-independent and channel-dependent. Understanding of different modalities requires the design of different encoders, while inference of different modalities requires the design of different decoders. Therefore, the domain affects the design of the prompt, the characteristic guides the design of the external adapter, and the modality determines the design of the internal encoder and decoder, respectively. (2) from alignment methods to time series data. The TS-Prompt-LLM alignment method focuses on specific domains and text modality; the TS-Adapt-LLM alignment method focuses on channel-independent and TS modality; the TS-Finetune-LLM alignment method focuses on general domains and channel-dependent.  
+**Bidirectional Relationships.** This is a stable relationship between time series data and alignment methods of LLM: (1) from time series data to alignment methods. Domain knowledge is usually dynamic, specific, and suitable for prompt input into LLM. The correlation between the temporal and spatial characteristics guides the channel design, in which the external adapter is guided by channel-independent and channel-dependent. Understanding of different modalities requires the design of different encoders, while inference of different modalities requires the design of different decoders. Therefore, the domain affects the design of the external prompt layer; the characteristic guides the design of the external adapter layer, and the modality determines the design of the internal encoder layer; (2) from alignment methods to time series data. The TS-Prompt-LLM alignment method focuses on specific domains and text modality; the TS-Adapt-LLM alignment method focuses on channel-independent and TS modality; the TS-Finetune-LLM alignment method focuses on general domains and channel-dependent.  
 
-**Research Trend.** The cost of alignment method increases from the external prompt layer through the external adapter layer to the internal encoder layer, and the closer to the internal layer, the better the overall improvement. (1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost. (2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter. (3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning it. We believe that aligning time series data with LLM will further reduce the cost and improve prediction reliability in the future.
+**Hierarchical Relationship.** The internal and external refer to inside or outside LLM, and the layers are categorized as follows: (1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost; (2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter; (3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning LLM. The cost of the alignment method increases from the external prompt layer through the external adapter layer to the internal encoder layer, and the closer to the internal layer, the better the overall improvement. We believe that aligning time series data with LLM will further reduce the cost and improve prediction reliability in the future.
 
-**Advantages of Alignment.** Alignment between time series data and LLM effectively capture the temporal dynamics and uses tools to handle more complex time-series tasks. As the brain, LLM replaces humans to achieve automatic integration with various tools and data sources for collecting relevant information and providing action services.
+**Advantages of Alignment.** Alignment between time series data and LLM effectively captures the temporal dynamics and uses tools to handle more complex time-series tasks. As the brain, LLM replaces humans to achieve automatic integration with various tools and data sources for collecting relevant information and providing action services.
 <br/>
 
 
@@ -154,7 +173,7 @@ Dataset|Domain|Dimensions|Modality|Size
 
 ## Citation
 
-If you find this useful, please cite our paper: "Aligning Time Series Data with Large Language Models: A Survey"
+If you find this useful, please cite our paper: "Aligning Time Series Data with Large Language Models: A Survey".
 <!--
 ```
 @article{zhang2024large,
