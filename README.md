@@ -21,7 +21,7 @@ With the emergence of Large Language Models (LLMs), increased attention has been
 <center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs. Our survey focuses on studies belonging to the TSLLM paradigm.</center>
 <br/><br/>
 
-As shown in Figure 1, existing studies can be categorized according to three paradigms: (1) TSPFM represents a domain engineer who discovers and solves predictive tasks on time-series problems for predictive tasks; (2) TSLM represents a domain expert with prior domain knowledge targeting predictive tasks; (3) TSLLM represents a cognitive agent with prior general knowledge targeting cognitive tasks, such as action planning, impact analysis, general queries and answers (Q\&A), and time series editing. TSLLMs and TSLMs with large numbers of parameters have better zero-shot support than TSPFMs. The predictive tasks serve as tools to accomplish cognitive tasks, and extra knowledge is retrieved to improve predictive performance.
+As shown in Figure **1**, existing studies can be categorized according to three paradigms: (1) TSPFM represents a domain engineer who discovers and solves predictive tasks on time-series problems for predictive tasks; (2) TSLM represents a domain expert with prior domain knowledge targeting predictive tasks; (3) TSLLM represents a cognitive agent with prior general knowledge targeting cognitive tasks, such as action planning, impact analysis, general queries and answers (Q\&A), and time series editing. TSLLMs and TSLMs with large numbers of parameters have better zero-shot support than TSPFMs. The predictive tasks serve as tools to accomplish cognitive tasks, and extra knowledge is retrieved to improve predictive performance.
 
 
 **The performance of the TSLLM paradigm in predictive tasks arises from the intrinsic characteristics and structure of time series data. Therefore, we focus on time series data instead of predictive tasks**.
@@ -35,7 +35,7 @@ As shown in Figure 1, existing studies can be categorized according to three par
 <br/>
 <br/>
 
-For clarity, we provide an intuitive representation in Figure <span style="color: red;">2</span>. The alignment targets are time series data and LLMs. We consider three important attributes of time series data: domain, characteristic, and modality. Time series data is collected in a variety of domains, such as healthcare, finance, and IoT, which can be characterized according to different temporal and spatial characteristics, and involve different modalities. The spatial characteristics include independent and dependent channel correlation, while the temporal characteristics include stationarity, trend, noise, and period. The main contributions of this survey include:
+For clarity, we provide an intuitive representation in Figure **2**. The alignment targets are time series data and LLMs. We consider three important attributes of time series data: domain, characteristic, and modality. Time series data is collected in a variety of domains, such as healthcare, finance, and IoT, which can be characterized according to different temporal and spatial characteristics, and involve different modalities. The spatial characteristics include independent and dependent channel correlation, while the temporal characteristics include stationarity, trend, noise, and period. The main contributions of this survey include:
 
 1) We provide a comprehensive survey of the alignment of time series data with LLMs in the TSLLM paradigm.
    
@@ -53,18 +53,18 @@ For clarity, we provide an intuitive representation in Figure <span style="color
 <div align="center">
     <img src="./taxonomy-boundary.png" width="400" />
 </div>
-<center>Figure 4. Example of alignment in healthcare domain and capability boundaries of three alignment methods.</center>
+<center>Figure 3. Example of alignment in healthcare domain and capability boundaries of three alignment methods.</center>
 <br/>
 <br/>
 
 
 ### Taxonomy of Semantic Alignment Methods:
-We analyzed related works and found the bidirectional relationship and research trend between time series data and alignment methods, as shown in Figure 3. **You can download the project to get all the papers mentioned in our survey at once!**
+We analyzed related works and found the bidirectional relationship and research trend between time series data and alignment methods, as shown in Figure **4**. **You can download the project to get all the papers mentioned in our survey at once!**
 
 <div align="center">
     <img src="./taxonomy-xmind.png" width="1200" />
 </div>
-<center>Figure 5. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., healthcare, finance, network, general-purpose), data modalities (e.g., TS, text), and data characteristics (channel-independent design for univariate and channel-dependent design for multivariate).</center>
+<center>Figure 4. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., healthcare, finance, network, general-purpose), data modalities (e.g., TS, text), and data characteristics (channel-independent design for univariate and channel-dependent design for multivariate).</center>
 <br/><br/>
 
 **Bidirectional Relationships.** This is a stable relationship between time series data and alignment methods of LLM as follows: **(1) from time series data to alignment methods.** Domain knowledge is usually dynamic, specific, and suitable for prompt input into LLM. The correlation between the temporal and spatial characteristics guides the channel design, in which the external adapter is guided by channel-independent and channel-dependent. Understanding of different modalities requires the design of different encoders, while inference of different modalities requires the design of different decoders. Therefore, the domain affects the design of the external prompt layer; the characteristic guides the design of the external adapter layer, and the modality determines the design of the internal encoder layer; **(2) from alignment methods to time series data.** The TS-Prompt-LLM alignment method focuses on specific domains and text modality; the TS-Adapt-LLM alignment method focuses on channel-independent and TS modality; the TS-Finetune-LLM alignment method focuses on general domains and channel-dependent.  
