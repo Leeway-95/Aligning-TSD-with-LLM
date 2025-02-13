@@ -160,7 +160,7 @@ Dataset|Domain|Dimensions|Modality|Size
 [Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
 [M4](https://github.com/Mcompetitions/M4-methods)|General|Univariate|TS, Text|100,000 timestep data
 [UEA](https://www.timeseriesclassification.com)|General|Multivariate|TS|30 datasets, 50,000 timestep
-[UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data)|General|Univariate|TS|128 datasets 
+[UCR](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|General|Univariate|TS|128 datasets 
 
 ### Findings
 
