@@ -1,6 +1,7 @@
 # Aligning Time Series Data with Large Language Models: A Survey
 
-This repository is activately maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to create pull requests, open issues, or *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
+This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
+
 <!--
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 -->
@@ -57,7 +58,7 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 
 ### Taxonomy of Semantic Alignment Methods:
 **(1) You can download the project to get all the papers mentioned in our survey at once!**
-<br> **(2) The Citations.bib file contains a complete list of authors of the papers cited in our survey!**
+<br> **(2) The 'citations.bib' file contains a complete list of authors of the papers cited in our survey!**
 <br>
 <div align="center">
     <img src="./taxonomy-xmind.png" width="1200" />
@@ -162,10 +163,10 @@ Dataset|Domain|Dimensions|Modality|Size
 [UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data)|General|Univariate|TS|128 datasets 
 
 ### Findings
-we analyzed related works and found the bidirectional relationship, hierarchical relationship and advantages of alignment.
+we analyzed related works and found the bidirectional relationship, hierarchical relationship and advantages of alignment.<br>
 **Bidirectional Relationships.** <br>(1) from time series data to alignment methods. The domain affects the design of the external prompt layer; the characteristic guides the design of the external adapter layer, and the modality determines the design of the internal encoder layer; <br>(2) from alignment methods to time series data. The TS-Prompt-LLM alignment method focuses on specific domains and text modality; the TS-Adapt-LLM alignment method focuses on channel-independent and TS modality; the TS-Finetune-LLM alignment method focuses on general domains and channel-dependent.  
 
-**Hierarchical Relationship.** The cost of the alignment method increases from the external prompt layer by the external adapter layer to the internal encoder layer. The closer to the internal layer, the better the overall improvement. <br>(1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost; <br>(2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter; <br>(3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning LLM. 
+**Hierarchical Relationship.** The cost of the alignment method increases from the external prompt layer by the external adapter layer to the internal encoder layer. <br>(1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost; <br>(2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter; <br>(3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning LLM. 
 
 **Advantages of Alignment.** Alignment between time series data and LLM effectively captures the temporal dynamics and uses tools to handle more complex time-series tasks. As the brain, LLM replaces humans to achieve automatic integration with various tools and data sources for collecting relevant information and providing action services.
 <br>
