@@ -35,7 +35,7 @@ However, methods targeting predictive tasks of time series such as forecasting, 
 <br>
 <br>
 
-For clarity, we provide an intuitive representation in Figure **2**. The alignment targets are **time series data** and **LLMs**. We consider three important attributes of time series data: domain, characteristic, and modality. Time series data is collected in a variety of domains, such as healthcare, finance, and IoT, which can be characterized according to different temporal and spatial characteristics, and involve different modalities. The spatial characteristics include independent and dependent channel correlation, while the temporal characteristics include stationarity, trend, noise, and period.
+For clarity, we provide an intuitive representation in Figure **2**. We consider three important attributes of time series data: domain, characteristic, and modality. Time series data is collected in a variety of domains, such as healthcare, finance, and IoT, which can be characterized according to different temporal and spatial characteristics, and involve different modalities. The spatial characteristics include independent and dependent channel correlation, while the temporal characteristics include stationarity, trend, noise, and period.
    
 
 <br>
@@ -163,10 +163,12 @@ Dataset|Domain|Dimensions|Modality|Size
 [UCR](https://www.cs.ucr.edu/∼eamonn/time_series_data)|General|Univariate|TS|128 datasets 
 
 ### Findings
-we analyzed related works and found the bidirectional relationship, hierarchical relationship and advantages of alignment.<br>
+
+The alignment targets are **time series data** and **LLMs**, and the alignment method is the medium between them. We analyzed related works and found the relationships and advantages of alignment as follows:<br>
+
 **Bidirectional Relationships.** <br>(1) from time series data to alignment methods. The domain affects the design of the external prompt layer; the characteristic guides the design of the external adapter layer, and the modality determines the design of the internal encoder layer; <br>(2) from alignment methods to time series data. The TS-Prompt-LLM alignment method focuses on specific domains and text modality; the TS-Adapt-LLM alignment method focuses on channel-independent and TS modality; the TS-Finetune-LLM alignment method focuses on general domains and channel-dependent.  
 
-**Hierarchical Relationship.** The cost of the alignment method increases from the external prompt layer by the external adapter layer to the internal encoder layer. <br>(1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost; <br>(2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter; <br>(3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning LLM. 
+**Hierarchical Relationships.** The cost of the alignment method increases from the external prompt layer by the external adapter layer to the internal encoder layer. <br>(1) external prompt layer. More prior knowledge can communicate more effectively with the text data in the domain. As the initial layer of alignment, it has a lower alignment cost; <br>(2) external adapter layer. The adapter is trained outside the LLM as an external encoder layer. The time series is mapped to the corresponding word vectors by similarity matching of the adapter; <br>(3) internal encoder layer. The multivariate correlation in the general domain is optimized by designing the encoder or decoder and fine-tuning LLM. 
 
 **Advantages of Alignment.** Alignment between time series data and LLM effectively captures the temporal dynamics and uses tools to handle more complex time-series tasks. As the brain, LLM replaces humans to achieve automatic integration with various tools and data sources for collecting relevant information and providing action services.
 <br>
