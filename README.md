@@ -81,7 +81,7 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 
 Date|Paper|Institute|Conference|Domain|LLMs
 ---|---|---|---|---|---
-14 <br>Oct <br>2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)|University of New South Wales, Sydney|Preprint|IoT|LLaMA
+14 <br>Oct <br>2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)**[**[**Code**](https://github.com/zechenli03/SensorLLM)**]**|University of New South Wales, Sydney|Preprint|IoT|LLaMA
 18 <br>Oct <br>2024|[XForecast: Evaluating Natural Language Explanations for Time Series Forecasting](https://arxiv.org/abs/2410.14180)|Salesforce AI Research|Preprint|General|GPT-4
 14 <br>Aug <br>2024|[MedTsLLM: Leveraging LLMs for Multimodal Medical Time Series Analysis](https://arxiv.org/abs/2408.07773)|Department of Civil and Systems Engineering, Johns Hopkins University|MLHC'24|Health|LLaMA
 25 <br>Feb <br>2024|[LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting](https://arxiv.org/abs/2402.16132)|Georgia Institute of Technology, Microsoft Research Asia|Preprint|General|GPT-3.5, <br>GPT-4
