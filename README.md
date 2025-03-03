@@ -81,7 +81,9 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 
 Date|Paper|Institute|Conference
 ---|---|---|---
-21 <br>Mar <br>2024|[Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735)|The Hong Kong University of Science and Technology (Guangzhou)|KDD'24
+3 <br>Feb <br>2025|[Position: Empowering Time Series Reasoning with Multimodal LLMs](https://arxiv.org/abs/2502.01477)|University of Oxford|Preprint
+5 <br>Feb <br>2024|[Position: What Can Large Language Models Tell Us about Time Series Analysis](https://arxiv.org/abs/2402.02713)|Griffith University|ICML'24
+21 <br>Mar <br>2024|[Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735)|The Hong Kong University of Science and Technology|KDD'24
 5 <br>Feb <br>2024|[Empowering Time Series Analysis with Large Language Models: A Survey](https://arxiv.org/abs/2402.03182)|University of Connecticut, USA|IJCAI'24
 2 <br>Feb <br>2024|[Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801)|University of California, San Diego|IJCAI'24
 16 <br>Oct <br>2023|[Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook](https://arxiv.org/abs/2310.10196)|Monash University|Preprint
