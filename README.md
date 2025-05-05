@@ -79,7 +79,7 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 
 ### Related Survey:
 
-Date|Paper|Institute|Conference
+Date|Paper|Institute|Publication
 ---|---|---|---
 3 <br>Feb <br>2025|[Position: Empowering Time Series Reasoning with Multimodal LLMs](https://arxiv.org/abs/2502.01477)|University of Oxford|Preprint
 21 <br>Mar <br>2024|[Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735)|The Hong Kong University of Science and Technology|KDD'24
@@ -93,7 +93,7 @@ Date|Paper|Institute|Conference
 
 ### TS-Prompt-LLM:
 
-Date|Paper|Institute|Conference|Domain|LLMs
+Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 14 <br>Oct <br>2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)**[**[**Code**](https://github.com/zechenli03/SensorLLM)**]**|University of New South Wales, Sydney|Preprint|IoT|LLaMA
 18 <br>Oct <br>2024|[XForecast: Evaluating Natural Language Explanations for Time Series Forecasting](https://arxiv.org/abs/2410.14180)|Salesforce AI Research|Preprint|General|GPT-4
@@ -112,7 +112,7 @@ Date|Paper|Institute|Conference|Domain|LLMs
 20 <br>Sep 2022|[PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting](https://arxiv.org/abs/2210.08964)**[**[**Code**](https://github.com/HaoUNSW/PISA)**]**|University of New South Wales|TKDE'23|General|BART, <br>BERT
 
 ### TS-Adapter-LLM:
-Date|Paper|Institute|Conference|Domain|LLMs
+Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 24 <br>Nov <br>2024|[LeRet: Language-Empowered Retentive Network for Time Series Forecasting](https://www.ijcai.org/proceedings/2024/0460.pdf)**[**[**Code**](https://github.com/hqh0728/LeRet)**]**|University of Science and Technology of China|IJCAI'24|General|LLaMA
 24 <br>Oct <br>2024|[Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification (HiTime)](https://arxiv.org/abs/2410.18686)**[**[**Code**](https://github.com/Xiaoyu-Tao/HiTime)**]**|State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China|Preprint|General|GPT-2
@@ -138,7 +138,7 @@ Date|Paper|Institute|Conference|Domain|LLMs
 
 ### TS-Finetune-LLM:
 
-Date|Paper|Institute|Conference|Domain|LLMs
+Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 7 <br>Jan 2025|[Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series](https://arxiv.org/abs/2501.03747)|The Hong Kong Polytechnic University|Preprint|General|GPT-2
 3 <br>Jan 2025|[Time Series Language Model for Descriptive Caption Generation (TSLM)](https://arxiv.org/abs/2501.01832)|Nokia Bell Labs|Preprint|General|LLaMA-2
