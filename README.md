@@ -1,20 +1,23 @@
-# Aligning Time Series Data with Large Language Models: A Survey
+# Position: Rethinking Time Series Alignment beyond Specific Tasks in the Context of the LLMs
 
 This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
 
 <!--
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 -->
+
+<!--
 ### Updates:
 
-[New🔥] (2025.2.11) Our survey paper is submitted to **IJCAI 2025, Survey Track**!
+[New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
+-->
 
 ### Motivation and Contribution:
 
 <div align="center">
     <img src="./taxonomy-motivation.png" width="900" />
 </div>
-<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). TSLLM has general knowledge and cognitive tasks. The gray boxes represent external inputs, while the yellow boxes represent internal outputs. Our survey focuses on studies belonging to the TSLLM paradigm.</center>
+<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). The gray boxes represent external inputs and TSLLM has general knowledge. We focuses on the TSLLM paradigm.</center>
 <br><br>
 
 As shown in Figure **1**, existing studies can be categorized according to three paradigms: <br>
