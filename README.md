@@ -17,12 +17,12 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 <div align="center">
     <img src="./taxonomy-motivation.png" width="900" />
 </div>
-<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model (TSPFM), Time-Series Large Model (TSLM), and Time-Series Large Language Model (TSLLM). The gray boxes represent external inputs and TSLLM has general knowledge. We focuses on the TSLLM paradigm.</center>
+<center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model, Time-Series Large Model, and Time-Series Large Language Model (TSLLM). The gray boxes represent external inputs and TSLLM has general knowledge. We focuses on the TSLLM paradigm.</center>
 <br><br>
 
 As shown in Figure **1**, existing studies can be categorized according to three paradigms: <br>
-(1) TSPFM represents a domain engineer who discovers and solves predictive tasks on time-series problems for predictive tasks;<br> 
-(2) TSLM represents a domain expert with prior domain knowledge targeting predictive tasks;<br> 
+(1) Time-Series Pre-trained Foundational Model represents a domain engineer who discovers and solves predictive tasks on time-series problems for predictive tasks;<br> 
+(2) Time-Series Large Model represents a domain expert with prior domain knowledge targeting predictive tasks;<br> 
 (3) TSLLM represents a cognitive agent with prior general knowledge targeting cognitive tasks, such as action planning, impact analysis, general queries and answers (Q\&A), and time series editing, as shown in Figure **2**. 
 
 <div align="center">
@@ -31,7 +31,7 @@ As shown in Figure **1**, existing studies can be categorized according to three
 <center>Figure 2. In TSLLMs, the predictive tasks serve as tools to accomplish cognitive tasks, and extra knowledge is retrieved to improve predictive performance.</center>
 <br><br>
 
-However, methods targeting predictive tasks of time series such as forecasting, anomaly detection, interpolation, and classification, are often associated with high training costs, while offering only limited generalizability and insufficient accuracy. TSLLMs and TSLMs with large numbers of parameters have unprecedented zero-shot capabilities than TSPFMs. 
+However, methods targeting predictive tasks of time series such as forecasting, anomaly detection, interpolation, and classification, are often associated with high training costs, while offering only limited generalizability and insufficient accuracy. TSLLMs with large numbers of parameters have unprecedented zero-shot capabilities. 
 
 **The performance of the TSLLM paradigm in predictive tasks arises from the intrinsic characteristics and structure of time series data. Therefore, we focus on time series data instead of predictive tasks. Aligning time series data with LLMs refers to adapting time series data or LLMs to accomplish LLMs effectively understand time series data to reason cognitively**.
 
