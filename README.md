@@ -136,7 +136,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 1 <br>Jan <br>2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition (SHARE)](https://arxiv.org/abs/2301.03462)|University of California|CIKM'23|IoT|GPT-4
 10 <br>Aug 2022|[Can Brain Signals Reveal Inner Alignment with Human Languages? (MATM)](https://arxiv.org/abs/2208.06348)**[**[**Code**](https://github.com/Jason-Qiu/EEG_Language_Alignment)**]**|Carnegie Mellon University|EMNLP'23 Findings|Health|BERT
 
-### TS-Adapter-LLM:
+### TS-Adapt-LLM:
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 12 <br>May <br>2025|[MedualTime: A Dual-Adapter Language Model for Medical Time Series-Text Multimodal Learning](https://arxiv.org/abs/2406.06620)**[**[**Code**](https://github.com/start2020/MedualTime)**]**|Hong Kong University of Science and Technology|Preprint|General|GPT-2, <br>BERT
