@@ -152,7 +152,6 @@ Date|Paper|Institute|Publication|Domain|LLMs
 16 <br>Feb <br>2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities (TSFLLMs)](https://arxiv.org/abs/2402.10835)**[**[**Code**](https://github.com/MingyuJ666/Time-Series-Forecasting-with-LLMs)**]**| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|GPT-3.5, <br>GPT-4, LLaMA-2
 29 <br>Jan <br>2024|[Time-LLM: Time Series Forecasting by Reprogramming Large Language Models](https://arxiv.org/abs/2310.01728)**[**[**Code**](https://github.com/KimMeen/Time-LLM)**]**|Monash University, Ant Group, etc.|ICLR'24|General|LLaMA
 26 <br>Jan <br>2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection (AnomalyLLM)](https://arxiv.org/abs/2401.15123)|Zhejiang University|IJCAI'24|General|GPT-2
-9 <br>Oct <br>2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|LLaMA
 16 <br>Aug <br>2023|[TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series](https://arxiv.org/abs/2308.08241.pdf)**[**[**Code**](https://github.com/SCXsunchenxi/TEST)**]**|Peking University, Alibaba Group|ICLR'24|General|BERT, <br>GPT-2, <br>ChatGLM
 
 ### TS-Finetune-LLM:
@@ -174,7 +173,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 23 <br>Feb <br>2024|[UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting](https://arxiv.org/abs/2310.09751)**[**[**Code**](https://github.com/liuxu77/UniTime)**]**|National University of Singapore, The Hong Kong University of Science and Technology|WWW'24|General|GPT-2
 7 <br>Feb <br>2024|[Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning (aLLM4TS)](https://arxiv.org/abs/2402.04852)|The Chinese University of Hong Kong, Tongji University, etc.|ICML'24|General|GPT-2
 21 <br>Dec <br>2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg|Preprint|Finance|GPT-NeoX, <br>OPT66B, <br>BLOOM176B
-9 <br>Oct <br>2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink Royal Flush Information Network|Preprint|Finance|LLaMA
+9 <br>Oct <br>2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink Royal Flush Information Network|IJCAI'23|Finance|LLaMA
 25 <br>Sep <br>2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)**[**[**Code**](https://github.com/duanyiqun/DeWave)**]**|Faculty of Engineering and Information Technology University of Technology Sydney|NeurIPS'23|Health|BART
 27 <br>Oct <br>2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|CMU|NeurIPS'23 Workshop|Health|GPT-2, <br>OPT
 16 <br>Aug <br>2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|Preprint|TIST'2025|GPT-2
