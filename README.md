@@ -178,7 +178,6 @@ Date|Paper|Institute|Publication|Domain|LLMs
 16 <br>Aug <br>2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|Preprint|TIST'2025|GPT-2
 21 <br>Jan <br>2023|[Transfer Knowledge from Natural Language to Electrocardiography: Can We Detect Cardiovascular Disease Through Language Models? (ECG-LLM)](https://arxiv.org/abs/2301.09017)|CMU, Allegheny General Hospital, etc.|EACL'23 Findings|Healthcare|BERT, <br>BART
 
-<!--23 <br>Feb <br>2023|[One Fits All:Power General Time Series Analysis by Pretrained LM (GPT4TS)](https://arxiv.org/abs/2302.11939)**[**[**Code**](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)**]**|Alibaba|NeurIPS'23|General|GPT-2-->
 ### Dataset
 
 Dataset|Domain|Dimensions|Modality|Size
