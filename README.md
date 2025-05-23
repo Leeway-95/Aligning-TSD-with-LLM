@@ -192,21 +192,17 @@ Date|Paper|Institute|Publication|Domain|LLMs
 
 Dataset|Domain|Dimensions|Modality|Size
 ---|---|---|---|---
-[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Healthcare|Multivariate|Text, ECG|70 question templates
-[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Healthcare|Multivariate|Text, ECG|60h data, 71 unique statements
-[Zuco 2.0](https://osf.io/2urht/)|Healthcare|Multivariate|Text, EEG|739 sentences
-[MIMIC-III](https://github.com/MIT-LCP/mimic-code)|Healthcare|Multivariate|Text, TS|53,423 adult patients, 7,870 newborns
-[CirCor](https://github.com/nttcslab/m2d/tree/master/app/circor)|Healthcare|Multivariate|TS|1,568 patients, 5,282 records, 215,780 samples
-[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Healthcare|Multivariate|Text, TS|6 datasets, 2K timesteps in total
-[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Multivariate|Text, TS|136K instruction data
-[StockNet](https://github.com/yumoxu/stocknet-dataset)|Finance|Multivariate|Text, TS|8 stocks, 26,614 samples
-[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Multivariate|Text, TS|29.7M stock prices, 15.7M news records
-[Ego4D](https://ego4d-data.org/)|IoT|Multivariate|Text, IMU|3,670h data, 3.85M narrations
-[DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Multivariate|Text, IMU|25h data, 91K questions
-[Ego-Exo4D](https://ego-exo4d-data.org/)|IoT|Multivariate|Text, IMU|1,422h data
-[M4](https://github.com/Mcompetitions/M4-methods)|General|Univariate|TS, Text|100,000 timestep data
-[UEA](https://www.timeseriesclassification.com)|General|Multivariate|TS|30 datasets, 50,000 timestep
-[UCR](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|General|Univariate|TS|128 datasets 
+[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Medical|Multivariate|Number(ECG)+Text|70 question templates
+[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Medical|Multivariate|Number+Table|60h data, 71 statements
+[Zuco 2.0](https://osf.io/2urht/)|Medical|Multivariate|Number(EEG)+Text|739 sentences
+[PIXIU](https://github.com/chancefocus/PIXIU)|Financial|Multivariate|Number+Text+Table|136K instruction data
+[StockNet](https://github.com/yumoxu/stocknet-dataset)|Financial|Multivariate|Text+Number|88 stocks, 26,614 samples
+[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Financial|Multivariate|Number+Text+Table|29.7M stock prices
+[Ego4D](https://ego4d-data.org/)|Spatial-Temporal|Multivariate|Video+Audio|3,670h data, 3.85M narrations
+[DeepSQA](https://github.com/nesl/DeepSQA)|Spatial-Temporal|Multivariate|Number+Text|1K contexts
+[TS-Insights](https://drive.google.com/drive/folders/1qGXigxE5GvmF1oLuGXaqLMkRgwoQfZ7V)|General|Multivariate|Number+Text|100,000 samples
+[TimeMMD](https://github.com/AdityaLab/Time-MMD)|General|Multivariate|Number+Text|496 samples
+[CiK](https://github.com/ServiceNow/context-is-key-forecasting)|General|Multivariate|Number+Text|2,644 time series 
 
 <!--
 ## Citation
