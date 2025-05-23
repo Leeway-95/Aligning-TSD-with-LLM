@@ -1,7 +1,7 @@
-# Position: Rethinking Time Series Alignment beyond Specific Tasks in the Context of the LLMs
+# Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs
 
-This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
-
+<!--This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
+-->
 <!--
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
 -->
@@ -11,10 +11,19 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
+### Challenges:
+Although LLMs demonstrate superior zero-shot capabilities across an extensive range of parameters, relevant literature shows limited performance gains on classical time-series analysis tasks in zero-shot settings. A fundamental limitation arises from the modality gap between the symbolic natural language of LLMs and numerical time-series data. Without effective design of alignment paradigms for the modality gap, LLMs struggle to extract in-depth analytical insights from time-series data. Moreover, existing alignment paradigms tend to be costly, inflexible, and inefficient. Crucially, there is a lack of practical instructions to assist practitioners in designing appropriate alignment paradigms that are tailored to deployment requirements in real-world scenarios.
 
-### Motivation and Contribution:
+### Motivation Behind This Position Paper:
+Given the increasing demand for advanced time-series reasoning in real-world applications, most existing approaches have primarily focused on task-specific model customization. However, these approaches often overlook the role of time-series primitives---the intrinsic, atomic, and indivisible components of time-series data for achieving deeper insights. Our standpoint is that prioritizing appropriate‌ alignment paradigms grounded in the time-series primitives over task-specific model customization in time-series LLMs. To achieve this, effective alignment paradigms are crucial to bridge the gap between temporal information and natural language instructions, enabling LLMs to accurately understand time-series inputs and reason for multiple time-series tasks. Specifically, we discovered the alignment relationships between time-series primitives and LLMs, and propose a taxonomy of alignment paradigms based on their interaction boundaries with LLMs: (1) Injective Alignment injects numerical into textual representation, and interacts with the LLM externally. (2) Bridging Alignment maps numerical into semantically similar textual representation, and also interacts with the LLM externally. (3) Internal Alignment enhances both textual and numerical representations, or inducing new ones, and interacts with the LLM internally.
 
-<div align="center">
+### Contributions:
+(1) We analyze commonly datasets, and identify three essential time-series primitives.<br> 
+(2) We propose a taxonomy of three alignment paradigms grounded in time-series primitives, and offer instructions to assist practitioners in selecting appropriate alignment paradigms.<br> 
+(3) We categorize relevant literature, and provide insights into future opportunities for practitioners to explore. 
+
+
+<!--<div align="center">
     <img src="./taxonomy-motivation.png" width="900" />
 </div>
 <center>Figure 1. Comparison of Time-Series Pre-trained Foundational Model, Time-Series Large Model, and Time-Series Large Language Model (TSLLM). The gray boxes represent external inputs and TSLLM has general knowledge. We focuses on the TSLLM paradigm.</center>
@@ -74,6 +83,7 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 </div>
 <center>Figure 5. A comprehensive taxonomy of method name follows each work listed from the perspectives of data alignment methods (e.g., TS-Prompt-LLM, TS-Finetune-LLM, TS-Adapt-LLM), data domains (e.g., Healthcarecare, finance, network, general-purpose), data modalities (e.g., TS, text), and data characteristics (channel-independent design for univariate and channel-dependent design for multivariate).</center>
 <br>
+-->
 
 <!--
 - [Taxonomy](#taxonomy)
@@ -100,7 +110,7 @@ Date|Paper|Institute|Publication
 3 <br>May <br>2023|[A Survey of Time Series Foundation Models: Generalizing Time Series Representation with Large Language Model](https://arxiv.org/abs/2405.02358)|Hong Kong University of Science and Technology|Preprint
 15 <br>Feb <br>2022|[Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125)|Hong Kong University of Science and Technology|IJCAI'23
 
-### TS-Prompt-LLM:
+### Injective Alignment:
 
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
@@ -132,7 +142,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 10 <br>Apr <br>2023|[The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges](https://arxiv.org/abs/2304.05351)|Wuhan University, Southwest Jiaotong University, etc.|Preprint|Finance|ChatGPT
 1 <br>Jan <br>2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition (SHARE)](https://arxiv.org/abs/2301.03462)|University of California|CIKM'23|IoT|GPT-4
 
-### TS-Adapt-LLM:
+### Bridging Alignment:
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 12 <br>May <br>2025|[MedualTime: A Dual-Adapter Language Model for Medical Time Series-Text Multimodal Learning](https://arxiv.org/abs/2406.06620)**[**[**Code**](https://github.com/start2020/MedualTime)**]**|Hong Kong University of Science and Technology|Preprint|General|GPT-2, <br>BERT
@@ -153,7 +163,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 6 <br>Sep <br>2023|[ETP: Learning Transferable ECG Representations via ECG-Text Pre-training](https://arxiv.org/abs/2309.07145)|Imperial College London, The Ohio State University|ICASSP'24|Healthcare|BERT
 22 <br>Mar <br>2023|[Frozen Language Model Helps ECG Zero-Shot Learning (METS)](https://arxiv.org/abs/2303.12311)|College of Electronic Science and Engineering, Jilin University|MIDL'23|Healthcare|BERT
 
-### TS-Finetune-LLM:
+### Internal Alignment:
 
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
@@ -197,16 +207,6 @@ Dataset|Domain|Dimensions|Modality|Size
 [M4](https://github.com/Mcompetitions/M4-methods)|General|Univariate|TS, Text|100,000 timestep data
 [UEA](https://www.timeseriesclassification.com)|General|Multivariate|TS|30 datasets, 50,000 timestep
 [UCR](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)|General|Univariate|TS|128 datasets 
-
-### Findings
-
-The alignment targets are **time series data** and **LLMs**, and the alignment method is the medium between them. We analyzed related works and found the relationships and advantages of alignment as follows:<br>
-
-**Alignment Relationship.** <br>We use alignment methods as a medium between time series data and LLM to discover the alignment relationship between the two. The time series data includes domain, characteristic, and modality, while the alignment methods include TS-Prompt-LLM, TS-Adapt-LLM, and TS-Finetune-LLM. (1) From domain to TS-Prompt-LLM: domain knowledge is usually dynamic, specific, and suitable for prompt input into LLM. TS-Prompt-LLM focuses on more prior knowledge that can help communicate more effectively with the text data in the domain. (2) From characteristic to TS-Adapt-LLM:} the correlation between the temporal and spatial characteristics guides the channel design, in which the external adapter is guided by channel-independent and channel-dependent. TS-Adapt-LLM focuses on more training outside the LLM as an external encoder layer. The time-series characteristics are mapped to the corresponding word vectors by similarity matching of the adapter. (3) From modality to TS-Finetune-LLM: understanding of different modalities requires the design of different encoders, while inference of different modalities requires the design of different decoders. The modality is optimized by designing the encoder or decoder and fine-tuning the LLM. Therefore, the domain affects the design of the TS-Prompt-LLM; the characteristic guides the design of the TS-Adapt-LLM, and the modality determines the design of the TS-Finetune-LLM. The cost of the alignment method increases from the TS-Prompt-LLM through the TS-Adapt-LLM to the TS-Finetune-LLM, and the better the overall improvement.  
-
-**Alignment Advantages.** Alignment between time series data and LLM effectively captures the temporal dynamics and uses tools to handle more complex time-series tasks. As the brain, LLM replaces humans to achieve automatic integration with various tools and data sources for collecting relevant information and providing action services. We advocate utilizing time-series analysis models as auxiliary tools, and retrieving time-series knowledge as additional enhanced information. Furthermore, we urge that the cost of meeting the necessary requirements be considered when choosing between alignment methods. Costs include the computing power and labour. Computing power costs include GPU hardware and time costs for training and inference. Labour costs include practitioner fees and trial-and-error time costs.
-<br>
-
 
 <!--
 ## Citation
