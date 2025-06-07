@@ -12,16 +12,15 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
 ### Challenges:
-Although LLMs demonstrate superior zero-shot capabilities across an extensive range of parameters, relevant literature shows limited performance gains on classical time-series analysis tasks in zero-shot settings. A fundamental limitation arises from the modality gap between the symbolic natural language of LLMs and numerical time-series data. Without effective design of alignment paradigms for the modality gap, LLMs struggle to extract in-depth analytical insights from time-series data. Moreover, existing alignment paradigms tend to be costly, inflexible, and inefficient. Crucially, there is a lack of practical instructions to assist practitioners in designing appropriate alignment paradigms that are tailored to deployment requirements in real-world scenarios.
+Although LLMs demonstrate superior zero-shot capabilities across an extensive range of parameters, a fundamental limitation arises from the modality gap between the symbolic natural language and time series data. This gap leads to limited performance gains on classical time-series analysis tasks in zero-shot settings. Without effective design of alignment paradigms for the modality gap, LLMs struggle to derive meaningful analytical insights from time series data. Furthermore, existing alignment strategies tend to be costly, inflexible, and inefficient. Crucially, there is a lack of practical instructions to assist practitioners in designing appropriate alignment paradigms that are tailored to deployment requirements in real-world scenarios.
 
 ### Motivation Behind This Position Paper:
-Given the increasing demand for advanced time-series reasoning in real-world applications, most existing approaches have primarily focused on task-specific model customization. However, these approaches often overlook the role of time-series primitives---the intrinsic, atomic, and indivisible components of time-series data for achieving deeper insights. Our standpoint is that prioritizing appropriate‌ alignment paradigms grounded in the time-series primitives over task-specific model customization in time-series LLMs. To achieve this, effective alignment paradigms are crucial to bridge the gap between temporal information and natural language instructions, enabling LLMs to accurately understand time-series inputs and reason for multiple time-series tasks. Specifically, we discovered the alignment relationships between time-series primitives and LLMs, and propose a taxonomy of alignment paradigms based on their interaction boundaries with LLMs: (1) Injective Alignment injects numerical into textual representation, and interacts with the LLM externally. (2) Bridging Alignment maps numerical into semantically similar textual representation, and also interacts with the LLM externally. (3) Internal Alignment enhances both textual and numerical representations, or inducing new ones, and interacts with the LLM internally.
+Given the increasing demand for advanced time-series reasoning in real-world applications, most existing approaches have primarily focused on task-specific model customization. However, these approaches often overlook the role of time-series primitives, the intrinsic, atomic, and indivisible components of time series data for achieving deeper insights. Our standpoint is that ***prioritizing appropriate‌ alignment paradigms grounded in the time-series primitives over task-specific model customization in time-series LLMs.*** To achieve this, effective alignment paradigms are crucial to bridge the gap between temporal information and natural language instructions, enabling LLMs to accurately capture time-series inputs and reason for multiple time-series tasks. Specifically, we discovered the alignment relationships between time-series primitives and LLMs, and propose a taxonomy of alignment paradigms based on their interaction boundaries with LLMs: *(1) Injective Alignment* injects numerical into textual representation, and interacts with LLMs externally; *(2) Bridging Alignment* maps numerical into semantically similar textual representation, and also interacts with LLMs externally; *(3) Internal Alignment* enhances both textual and numerical representations, or induces new ones, and interacts with LLMs internally.
 
 ### Contributions:
-(1) We analyze commonly datasets, and identify three essential time-series primitives.<br> 
+(1) We analyze common datasets, and identify three essential time-series primitives.<br> 
 (2) We propose a taxonomy of three alignment paradigms grounded in time-series primitives, and offer instructions to assist practitioners in selecting appropriate alignment paradigms.<br> 
-(3) We categorize relevant literature, and provide insights into future opportunities for practitioners to explore. 
-
+(3) We categorize relevant literature, and provide insights into further discussion for practitioners to explore. 
 
 <!--<div align="center">
     <img src="./taxonomy-motivation.png" width="900" />
@@ -96,12 +95,15 @@ We define the three alignment methods as shown in Figure **3**. <br> Please see 
 - [Citation](#citation)
 -->
 
-### Related Survey:
+### Relevant Survey:
 
 Date|Paper|Institute|Publication
 ---|---|---|---
+5 <br>May <br>2025|[Towards Cross-Modality Modeling for Time Series Analytics: A Survey in the LLM Era](https://arxiv.org/abs/2505.02583)|Nanyang Technological University|IJCAI'25
+14 <br>Mar <br>2025|[How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook](https://arxiv.org/abs/2503.11835)|Georgia Institute of Technology|Preprint
+12 <br>Mar <br>2025|[Foundation Models for Spatio-Temporal Data Science: A Tutorial and Survey](https://arxiv.org/abs/2503.13502)|The Hong Kong University of Science and Technology (Guangzhou)|KDD'25
 3 <br>Feb <br>2025|[Position: Empowering Time Series Reasoning with Multimodal LLMs](https://arxiv.org/abs/2502.01477)|University of Oxford|Preprint
-21 <br>Mar <br>2024|[Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735)|The Hong Kong University of Science and Technology|KDD'24
+21 <br>Mar <br>2024|[Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735)|The Hong Kong University of Science and Technology (Guangzhou)|KDD'24
 5 <br>Feb <br>2024|[Empowering Time Series Analysis with Large Language Models: A Survey](https://arxiv.org/abs/2402.03182)|University of Connecticut, USA|IJCAI'24
 5 <br>Feb <br>2024|[Position: What Can Large Language Models Tell Us about Time Series Analysis](https://arxiv.org/abs/2402.02713)|Griffith University|ICML'24
 2 <br>Feb <br>2024|[Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801)|University of California, San Diego|IJCAI'24
