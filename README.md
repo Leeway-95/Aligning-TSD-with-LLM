@@ -240,10 +240,10 @@ Dataset|Domain|Characteristic|Representation|Statistic
 [TS-Insights](https://drive.google.com/drive/folders/1qGXigxE5GvmF1oLuGXaqLMkRgwoQfZ7V)|General|Multivariate, <br>trend, seasonality|Number+Text<br>+Image|100,000 samples
 [TimeMMD](https://github.com/AdityaLab/Time-MMD)|General|Multivariate, <br>stationarity, trends|Text(Number)|496 samples
 [CiK](https://github.com/ServiceNow/context-is-key-forecasting)|General|Univariate, multivariate, <br>stationarity, trend, <br>noise, periodicity|Number+Text|2,644 samples
-
+<!--
 ## Contact Us
 For inquiries or further assistance, contact us at [leeway@ruc.edu.cn](mailto:leeway@ruc.edu.cn).
-
+-->
 <!--
 ## Citation
 
