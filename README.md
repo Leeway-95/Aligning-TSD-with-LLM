@@ -11,7 +11,9 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
-If you find our work useful in your research. Please consider giving a star ⭐ and citation 📚:
+If you find our work useful in your research. Please consider giving a star ⭐:
+<!--
+ and citation 📚
 ```bibtex
 @misc{li2025alignmentparadigms,
       title={Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs}, 
@@ -20,6 +22,7 @@ If you find our work useful in your research. Please consider giving a star ⭐ 
       url={https://arxiv.org/abs/2506.11512}, 
 }
 ```
+-->
 
 ## Abstract
 Recent advances in Large Language Models (LLMs) have enabled unprecedented capabilities for time-series reasoning in diverse real-world applications, including medical, financial, and spatio-temporal domains. However, existing approaches typically focus on task-specific model customization, such as forecasting and anomaly detection, while overlooking the data itself, referred to as **time-series primitives**, which are essential for in-depth reasoning. This position paper advocates a fundamental shift in approaching time-series reasoning with LLMs: prioritizing **alignment paradigms** grounded in the intrinsic primitives of time series data over task-specific model customization. This realignment addresses the core limitations of current time-series reasoning approaches, which are often costly, inflexible, and inefficient, by systematically accounting for intrinsic structure of data before task engineering. To this end, we propose three alignment paradigms: **Injective Alignment**, **Bridging Alignment**, and **Internal Alignment**, which are emphasized by prioritizing different aspects of \textit{time-series primitives}: domain, characteristic, and representation, respectively, to activate time-series reasoning capabilities of LLMs to enable economical, flexible, and efficient reasoning. We further recommend that practitioners adopt an alignment-oriented method to avail this instruction to select an appropriate alignment paradigm. Additionally, we categorize relevant literature into these alignment paradigms and outline promising research directions.
