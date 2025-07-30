@@ -11,9 +11,8 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
-If you find our work useful in your research. Please consider giving a star ⭐:
 <!--
- and citation 📚
+If you find our work useful in your research. Please consider giving a star ⭐ and citation 📚:
 ```bibtex
 @misc{li2025alignmentparadigms,
       title={Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs}, 
