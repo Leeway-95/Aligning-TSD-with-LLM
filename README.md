@@ -1,10 +1,15 @@
 # Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs
 
+[![arXiv](https://img.shields.io/badge/arXiv-2506.11512-b31b1b.svg)](https://arxiv.org/abs/2506.11512)
+[![GitHub Stars](https://img.shields.io/github/stars/Leeway-95/Aligning-TSD-with-LLM?style=social)](https://github.com/Leeway-95/Aligning-TSD-with-LLM/stargazers)
+![Topic](https://img.shields.io/badge/Time%20Series-Alignment--LLMs-blueviolet)
+[![How to Cite](https://img.shields.io/badge/Cite-bibtex-orange)](#citation)
+
+<!--
 This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
 
-
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
-
+-->
 
 <!--
 ### Updates:
@@ -12,7 +17,7 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
 
-If you find our work useful in your research. Please consider giving a star ⭐ and citation 📚:
+✨ If you find our <em>position</em> useful for your research, please consider giving it a <strong>star ⭐ on GitHub</strong> to stay updated with future releases, and a <strong>citation 📚</strong> to help others discover it:
 ```bibtex
 @misc{li2025alignmentparadigms,
       title={Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs}, 
