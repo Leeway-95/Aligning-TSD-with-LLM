@@ -1,17 +1,17 @@
 # Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs
 
-<!--This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
--->
-<!--
+This repository is actively maintained by Wei Li from ***RUC WAMDM*** Group led by [*Dr. Xiaofeng Meng*](http://idke.ruc.edu.cn/). As this research topic has recently gained significant popularity, with new articles emerging daily, we will update our repository and survey regularly. If you find some ignored papers, feel free to *email* [*Wei Li*](mailto:leeway@ruc.edu.cn). 
+
+
 Please consider [citing](#citation) our survey paper if you find it helpful :), and feel free to share this repository with others! 
--->
+
 
 <!--
 ### Updates:
 
 [New🔥] (2025.5.22) Our survey paper is submitted to **NeurIPS 2025, Position Track**!
 -->
-<!--
+
 If you find our work useful in your research. Please consider giving a star ⭐ and citation 📚:
 ```bibtex
 @misc{li2025alignmentparadigms,
@@ -21,7 +21,6 @@ If you find our work useful in your research. Please consider giving a star ⭐ 
       url={https://arxiv.org/abs/2506.11512}, 
 }
 ```
--->
 
 ## Abstract
 Recent advances in Large Language Models (LLMs) have enabled unprecedented capabilities for time-series reasoning in diverse real-world applications, including medical, financial, and spatio-temporal domains. However, existing approaches typically focus on task-specific model customization, such as forecasting and anomaly detection, while overlooking the data itself, referred to as **time-series primitives**, which are essential for in-depth reasoning. This position paper advocates a fundamental shift in approaching time-series reasoning with LLMs: prioritizing **alignment paradigms** grounded in the intrinsic primitives of time series data over task-specific model customization. This realignment addresses the core limitations of current time-series reasoning approaches, which are often costly, inflexible, and inefficient, by systematically accounting for intrinsic structure of data before task engineering. To this end, we propose three alignment paradigms: **Injective Alignment**, **Bridging Alignment**, and **Internal Alignment**, which are emphasized by prioritizing different aspects of \textit{time-series primitives}: domain, characteristic, and representation, respectively, to activate time-series reasoning capabilities of LLMs to enable economical, flexible, and efficient reasoning. We further recommend that practitioners adopt an alignment-oriented method to avail this instruction to select an appropriate alignment paradigm. Additionally, we categorize relevant literature into these alignment paradigms and outline promising research directions.
@@ -239,10 +238,10 @@ Dataset|Domain|Characteristic|Representation|Statistic
 [TS-Insights](https://drive.google.com/drive/folders/1qGXigxE5GvmF1oLuGXaqLMkRgwoQfZ7V)|General|Multivariate, <br>trend, seasonality|Number+Text<br>+Image|100,000 samples
 [TimeMMD](https://github.com/AdityaLab/Time-MMD)|General|Multivariate, <br>stationarity, trends|Text(Number)|496 samples
 [CiK](https://github.com/ServiceNow/context-is-key-forecasting)|General|Univariate, multivariate, <br>stationarity, trend, <br>noise, periodicity|Number+Text|2,644 samples
-<!--
+
 ## Contact Us
 For inquiries or further assistance, contact us at [leeway@ruc.edu.cn](mailto:leeway@ruc.edu.cn).
--->
+
 <!--
 ## Citation
 
