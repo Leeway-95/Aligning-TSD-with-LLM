@@ -1,4 +1,4 @@
-# Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs
+# Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs [[PDF]](https://arxiv.org/pdf/2506.11512)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2506.11512-b31b1b.svg)](https://arxiv.org/abs/2506.11512)
 [![GitHub Stars](https://img.shields.io/github/stars/Leeway-95/Aligning-TSD-with-LLM?style=social)](https://github.com/Leeway-95/Aligning-TSD-with-LLM/stargazers)
@@ -30,35 +30,41 @@ Please consider [citing](#citation) our survey paper if you find it helpful :), 
 ## Abstract
 Recent advances in Large Language Models (LLMs) have enabled unprecedented capabilities for time-series reasoning in diverse real-world applications, including medical, financial, and spatio-temporal domains. However, existing approaches typically focus on task-specific model customization, such as forecasting and anomaly detection, while overlooking the data itself, referred to as **time-series primitives**, which are essential for in-depth reasoning. This position paper advocates a fundamental shift in approaching time-series reasoning with LLMs: prioritizing **alignment paradigms** grounded in the intrinsic primitives of time series data over task-specific model customization. This realignment addresses the core limitations of current time-series reasoning approaches, which are often costly, inflexible, and inefficient, by systematically accounting for intrinsic structure of data before task engineering. To this end, we propose three alignment paradigms: **Injective Alignment**, **Bridging Alignment**, and **Internal Alignment**, which are emphasized by prioritizing different aspects of \textit{time-series primitives}: domain, characteristic, and representation, respectively, to activate time-series reasoning capabilities of LLMs to enable economical, flexible, and efficient reasoning. We further recommend that practitioners adopt an alignment-oriented method to avail this instruction to select an appropriate alignment paradigm. Additionally, we categorize relevant literature into these alignment paradigms and outline promising research directions.
 
+<!--
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/89eeba31-ec55-4ed0-a097-9cd51a15d662" />
 </p>
+-->
 
+<!--
 ## Challenges:
 Although LLMs demonstrate superior zero-shot capabilities across an extensive range of parameters, a fundamental limitation arises from the modality gap between the symbolic natural language and time series data. This gap leads to limited performance gains on classical time-series analysis tasks in zero-shot settings. Without effective design of alignment paradigms for overcoming the modality gap, LLMs struggle to derive meaningful analytical insights from time series data. Furthermore, existing alignment strategies tend to be costly, inflexible, and inefficient. Crucially, there is a lack of practical instructions to assist practitioners in designing appropriate alignment paradigms that are tailored to deployment requirements in real-world scenarios.
+-->
 
-## Motivation Behind This Position Paper:
-Given the increasing demand for advanced time-series reasoning in real-world applications, most existing approaches have primarily focused on task-specific model customization. However, these approaches often overlook the role of time-series primitives, the intrinsic, atomic, and indivisible components of time series data for achieving in-depth reasoning. Our standpoint is that **prioritizing appropriate‌ alignment paradigms grounded in the time-series primitives over task-specific model customization in time-series LLMs**. To achieve this, effective alignment paradigms are crucial to bridge the gap between temporal information and natural language instructions, enabling LLMs to accurately capture time-series inputs and reason for multiple time-series tasks. Specifically, we discovered the alignment relationships between time-series primitives and LLMs. Based on their interaction boundaries with LLMs, we propose a taxonomy of three alignment paradigms: (1) Injective Alignment injects numerical into textual representation, and interacts with LLMs externally; (2) Bridging Alignment maps numerical into semantically similar textual representation, and also interacts with LLMs externally; (3) Internal Alignment enhances both textual and numerical representations, or induces new ones, and interacts with LLMs internally.
-
+<!--
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/b631ba43-9770-408d-9886-9f61d706472a" />
 </p>
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/14476d29-ca70-4ac7-b993-94b71dae7a92" />
 </p>
+-->
 
 ## Contributions:
 (1) We analyze common datasets and identify three essential time-series primitives.<br> 
 (2) We propose a taxonomy of three alignment paradigms grounded in time-series primitives, and offer instructions to assist practitioners in selecting appropriate alignment paradigms.<br> 
 (3) We categorize relevant literature and provide insights into further discussion for practitioners to explore. 
 
+<!--
+<p align="left">
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/9cc8528f-6ffa-4457-b8a2-08bccaea167b" />
+</p>
+-->
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/eb01cdcc-57d5-4974-aa92-c61d4ab46077" />
 </p>
 
-<p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/9cc8528f-6ffa-4457-b8a2-08bccaea167b" />
-</p>
+Given the increasing demand for advanced time-series reasoning in real-world applications, most existing approaches have primarily focused on task-specific model customization. However, these approaches often overlook the role of time-series primitives, the intrinsic, atomic, and indivisible components of time series data for achieving in-depth reasoning. Our standpoint is that **prioritizing appropriate‌ alignment paradigms grounded in the time-series primitives over task-specific model customization in time-series LLMs**. To achieve this, effective alignment paradigms are crucial to bridge the gap between temporal information and natural language instructions, enabling LLMs to accurately capture time-series inputs and reason for multiple time-series tasks. Specifically, we discovered the alignment relationships between time-series primitives and LLMs. Based on their interaction boundaries with LLMs, we propose a taxonomy of three alignment paradigms: (1) Injective Alignment injects numerical into textual representation, and interacts with LLMs externally; (2) Bridging Alignment maps numerical into semantically similar textual representation, and also interacts with LLMs externally; (3) Internal Alignment enhances both textual and numerical representations, or induces new ones, and interacts with LLMs internally.
 
 <!--<div align="center">
     <img src="./taxonomy-motivation.png" width="900" />
@@ -107,9 +113,9 @@ For clarity, we provide an intuitive representation in Figure **2**. We consider
 <br>
 
 We define the three alignment methods as shown in Figure **3**. <br> Please see our survey paper for details！The main contributions of this survey include:<br> 
-(1) We provide a comprehensive survey of the alignment of time series data with LLMs in the TSLLM paradigm.<br> 
-(2) We categorize and discover existing methods according to three alignment methods.<br> 
-(3) We highlight future opportunities for researchers and practitioners to explore.
+1. We provide a comprehensive survey of the alignment of time series data with LLMs in the TSLLM paradigm.<br> 
+2. We categorize and discover existing methods according to three alignment methods.<br> 
+3. We highlight future opportunities for researchers and practitioners to explore.
 
 ### Taxonomy of Semantic Alignment Methods:
 **(1) You can download the project to get all the papers mentioned in our survey at once!**
@@ -155,7 +161,8 @@ Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 3 <br>Mar <br>2025|[SensorQA: A Question Answering Benchmark for Daily-Life Monitoring](https://arxiv.org/abs/2501.04974)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|Georgia Institute of Technology|SenSys'24|General|GPT-3.5-Turbo, <br>GPT-4-Turbo 
 12 <br>Jun <br>2024|[Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis](https://arxiv.org/abs/2406.08627)**[**[**Code**](https://github.com/AdityaLab/Time-MMD)**]**|Georgia Institute of Technology|NeurIPS'24|General|LLaMA-3, <br>GPT-2
-27 <br>Oct <br>2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|University of California, Berkeley|NeurIPS'23 Workshop|General|LLaVA, <br>GPT-4
+28 <br>Oct <br>2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|University of California, Berkeley|NeurIPS'23 Workshop|General|LLaVA, <br>GPT-4
+27 <br>Oct <br>2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|Carnegie Mellon University|NeurIPS'23 Workshop|Medical|GPT-2, <br>OPT
 
 ### Injective Alignment:
 
@@ -216,9 +223,10 @@ Date|Paper|Institute|Publication|Domain|LLMs
 
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
+28 <br>Jun <br> 2025|[Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement](https://arxiv.org/abs/2503.01875?)**[**[**Code**](https://huggingface.co/datasets/Time-MQA/TSQA)**]**|University of Oxford|ACL'25|General|Mistral-7B
 16 <br>Apr <br>2025|[ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104)**[**[**Code**](https://github.com/NetManAIOps/ChatTS)**]**|Tsinghua University|VLDB'25|General|QWen-2.5
 16 <br>Apr <br>2025|[ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis](https://arxiv.org/abs/2408.08849)**[**[**Code**](https://github.com/YubaoZhao/ECG-Chat)**]**|China University of Geosciences|ICME'25|Medical|GPT-4, <br>Vicuna-13B
-19 <br>Feb <br>2025|[Adapting Large Language Models for Time Series Modeling via a Novel Parameter-efficient Adaptation Method (Time-LlaMA)](https://arxiv.org/abs/2502.13725)|Nanyang Technological University|Preprint|General|Llama-2
+19 <br>Feb <br>2025|[Adapting Large Language Models for Time Series Modeling via a Novel Parameter-efficient Adaptation Method (Time-LlaMA)](https://arxiv.org/abs/2502.13725)|Nanyang Technological University|ACL'25|General|Llama-2
 30 <br>Jan <br>2025|[Large Language Models are Few-shot Multivariate Time Series Classifiers (LLMFew)](https://arxiv.org/abs/2502.00059)|University of Technology Sydney|Preprint|General|GPT-2, <br>GPT-4
 16 <br>Dec <br>2024|[ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data](https://arxiv.org/abs/2412.11376)**[**[**Code**](https://github.com/ForestsKing/ChatTime)**]**|Beijing University of Posts and Telecommunications|AAAI'25|General|LLaMA-2
 24 <br>Oct <br>2024|[Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification (HiTime)](https://arxiv.org/abs/2410.18686)**[**[**Code**](https://github.com/Xiaoyu-Tao/HiTime)**]**|University of Science and Technology of China|Preprint|General|LLaMA 3.1 <br>GPT-2
@@ -234,7 +242,6 @@ Date|Paper|Institute|Publication|Domain|LLMs
 21 <br>Dec <br>2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg|Preprint|Financial|GPT-NeoX, <br>OPT, <br>BLOOM
 9 <br>Oct <br>2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction (SCRL-LG)](https://arxiv.org/abs/2310.05627)|Hithink Royal Flush Information Network|IJCAI'23|Financial|LLaMA
 25 <br>Sep <br>2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)**[**[**Code**](https://github.com/duanyiqun/DeWave)**]**|University of Technology Sydney|NeurIPS'23|Medical|BART
-27 <br>Oct <br>2023|[JoLT: Jointly Learned Representations of Language and Time-Series](https://openreview.net/forum?id=UVF1AMBj9u&referrer=%5Bthe%20profile%20of%20Yifu%20Cai%5D(%2Fprofile%3Fid%3D~Yifu_Cai1))|Carnegie Mellon University|NeurIPS'23 Workshop|Medical|GPT-2, <br>OPT
 16 <br>Aug <br>2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|TIST'25|General|GPT-2
 21 <br>Jan <br>2023|[Transfer Knowledge from Natural Language to Electrocardiography: Can We Detect Cardiovascular Disease Through Language Models? (ECG-LLM)](https://arxiv.org/abs/2301.09017)|Carnegie Mellon University|EACL'23 Findings|Medical|BERT, <br>BART
 
