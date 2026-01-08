@@ -231,7 +231,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 8 <br>Oct <br>2024|[Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series Forecasting](https://arxiv.org/abs/2405.14252)|The Hong Kong University of Science and Technology (Guangzhou)|NeurIPS 2024|General|GPT-2
 23 <br>Sep <br>2024|[TS-HTFA: Advancing Time Series Forecasting via Hierarchical Text-Free Alignment with Large Language Models](https://arxiv.org/abs/2409.14978)|East China Normal University|Preprint|General|GPT-2
 30 <br>Jul <br>2024|[A federated large language model for long-term time series forecasting (FedTime)](https://arxiv.org/abs/2407.20503)|Concordia Universit|Preprint|General|LLaMA
-7 <br>Jul <br>2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut|ICML'24|General|GPT-2
+7 <br>Jul <br>2024|[S2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut|ICML'24|General|GPT-2
 4 <br>May <br>2024 |[Can Brain Signals Reveal Inner Alignment with Human Languages? (MATM)](https://arxiv.org/abs/2208.06348v5)**[**[**Code**](https://github.com/Jason-Qiu/EEG_Language_Alignment)**]**|Carnegie Mellon University|EMNLP'23 Findings|Medical|BERT
 24 <br>Mar <br>2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|General|GPT-2, <br>BERT
 12 <br>Mar <br>2024|[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815)**[**[**Code**](https://github.com/amazon-science/chronos-forecasting)**]**|AWS AI Labs|TMLR'24|General|GPT-2
