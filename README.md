@@ -178,7 +178,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 19 <br>May<br>2025|[Decoding Time Series with LLMs: A Multi-Agent Framework for Cross-Domain Annotation (TESSA)](https://arxiv.org/abs/2410.17462)|The Pennsylvania State University |Preprint|General|GPT-4o, <br>LLaMA3.1-8B, <br>Qwen2-7B
 11 <br>May<br>2025|[Can LLMs Understand Time Series Anomalies? (AnomLLM)](https://arxiv.org/abs/2410.05440)|University of California|Preprint|General|Qwen-VL-Chat, <br>InternVL2-Llama3-76B, <br>GPT-4o-mini, <br>Gemini-1.5-Flash
-25 <br>Apr <br>2025|[A Picture is Worth A Thousand Numbers: Enabling LLMs Reason about Time Series via Visualization (TimerBed)](https://arxiv.org/abs/2411.06018)**[**[**Code**](https://github.com/AdityaLab/DeepTime/)**]**|Georgia Institute of Technology|ACL'25|General|GPT-4o-mini, <br>Qwen2-VL-72B 
+25 <br>Apr <br>2025|[A Picture is Worth A Thousand Numbers: Enabling LLMs Reason about Time Series via Visualization (TimerBed)](https://arxiv.org/abs/2411.06018)**[**[**Code**](https://github.com/AdityaLab/DeepTime/)**]**|Georgia Institute of Technology|NAACL'25|General|GPT-4o-mini, <br>Qwen2-VL-72B 
 5 <br>Apr <br>2025|[Context-Alignment: Activating and Enhancing LLMs Capabilities in Time Series (DECA)](https://arxiv.org/abs/2501.03747)**[**[**Code**](https://github.com/tokaka22/ICLR25-FSCA)**]**|The Hong Kong Polytechnic University|ICLR'26|General|GPT-2
 16 <br>Feb <br>2025|[TableTime: Reformulating Time Series Classification as Training-Free Table Understanding with Large Language Models](https://arxiv.org/abs/2411.15737)**[**[**Code**](https://anonymous.4open.science/r/TableTime-5E4D)**]**|University of Science and Technology of China|CIKM'25|General|Llama-3.1
 5 <br>Feb <br>2025|[SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions](https://arxiv.org/abs/2502.02883)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|University of California San Diego|IMWUT'25|Spatio-temporal|GPT-3.5-Turbo, <br>LLaMA
@@ -252,6 +252,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
 29 <br>Dec <br> 2025|[Alpha-R1: Alpha Screening with LLM Reasoning via Reinforcement Learning](https://www.arxiv.org/abs/2512.23515)**[**[**Code**](https://github.com/FinStep-AI/Alpha-R1)**]**|Shanghai Jiao Tong University|Preprint|General|Qwen3-8B
+9 <br>Nov <br> 2025|[TimeSense: Making Large Language Models Proficient in Time-Series Analysis](https://arxiv.org/abs/2511.06344)|Tsinghua University|Preprint|General|Qwen3-8B, <br>GPT-5
 28 <br>Jun <br> 2025|[Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement](https://arxiv.org/abs/2503.01875)**[**[**Code**](https://huggingface.co/datasets/Time-MQA/TSQA)**]**|University of Oxford|ACL'25|General|Mistral-7B
 16 <br>Apr <br>2025|[ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104)**[**[**Code**](https://github.com/NetManAIOps/ChatTS)**]**|Tsinghua University|VLDB'25|General|QWen-2.5
 16 <br>Apr <br>2025|[ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis](https://arxiv.org/abs/2408.08849)**[**[**Code**](https://github.com/YubaoZhao/ECG-Chat)**]**|China University of Geosciences|ICME'25|Medical|GPT-4, <br>Vicuna-13B
