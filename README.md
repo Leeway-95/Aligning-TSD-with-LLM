@@ -258,7 +258,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 16 <br>Apr <br>2025|[ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis](https://arxiv.org/abs/2408.08849)**[**[**Code**](https://github.com/YubaoZhao/ECG-Chat)**]**|China University of Geosciences|ICME'25|Medical|GPT-4, <br>Vicuna-13B
 16 <br>Dec <br>2024|[ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data](https://arxiv.org/abs/2412.11376)**[**[**Code**](https://github.com/ForestsKing/ChatTime)**]**|Beijing University of Posts and Telecommunications|AAAI'25|General|LLaMA-2
 13 <br>Aug <br>2024|[GenG: An LLM-Based Generic Time Series Data Generation Approach for Edge Intelligence via Cross-Domain Collaboration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620716)|Future Network Research Center, Purple Mountain Laboratories|INFOCOM'24|Spatio-temporal|LLaMA
-19 <br>Mar <br>2024|[Advancing Time Series Classification with Multimodal Language Modeling (InstructTime)](https://arxiv.org/abs/2403.12371)**[**[**Code**](https://github.com/Mingyue-Cheng/InstructTime)**]**|University of Science and Technology of China|WSDM'25|Medical|GPT-2
+19 <br>Mar <br>2024|[Advancing Time Series Classification with Multimodal Language Modeling (InstructTime)](https://arxiv.org/abs/2403.12371)**[**[**Code**](https://github.com/Mingyue-Cheng/InstructTime)**]**|University of Science and Technology of China|WSDM'25|General|GPT-2
 21 <br>Dec <br>2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg|Preprint|Financial|GPT-NeoX, <br>OPT, <br>BLOOM
 
 ### Dataset
