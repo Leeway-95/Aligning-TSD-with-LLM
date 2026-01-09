@@ -167,11 +167,11 @@ Date|Paper|Institute|Publication
 
 Date|Paper|Institute|Publication|Domain|LLMs
 ---|---|---|---|---|---
-7 <br>Nov <br>2025|[QuAnTS: Question Answering on Time Series](https://arxiv.org/abs/2511.05124)**[**[**Code**](https://github.com/mauricekraus/quants-generate)**]**|TU Darmstadt|Preprint|General|Llama3.1-8B
+7 <br>Nov <br>2025|[QuAnTS: Question Answering on Time Series](https://arxiv.org/abs/2511.05124)**[**[**Code**](https://github.com/mauricekraus/quants-generate)**]**|TU Darmstadt|Preprint|IoT|Llama3.1-8B
 21 <br>Mar <br>2025|[MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering](https://arxiv.org/abs/2503.16858)**[**[**Code**](https://github.com/Graph-and-Geometric-Learning/MTBench)**]**|Yale University|Preprint|General|GPT-4o, <br>Gemini, <br>Claude, <br>DeepSeek, <br>Llama3.1
 25 <br>Jun <br>2025|[ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset](https://arxiv.org/abs/2506.20093)**[**[**Code**](https://pandalin98.github.io/itformer_site/)**]**|Shanghai Jiao Tong University|ICML'25|General|GPT-4o, <br>Gemini-Pro
 5 <br>Jun <br>2025|[Context is Key: A Benchmark for Forecasting with Essential Textual Information](https://arxiv.org/abs/2410.18959)**[**[**Code**](https://servicenow.github.io/context-is-key-forecasting/v0/)**]**|ServiceNow Research|ICML'25|General|Qwen-2.5-7B, <br>Llama-3-70B, <br>Llama-3.1-405B
-3 <br>Mar <br>2025|[SensorQA: A Question Answering Benchmark for Daily-Life Monitoring](https://arxiv.org/abs/2501.04974)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|Georgia Institute of Technology|SenSys'24|General|GPT-3.5-Turbo, <br>GPT-4-Turbo 
+3 <br>Mar <br>2025|[SensorQA: A Question Answering Benchmark for Daily-Life Monitoring](https://arxiv.org/abs/2501.04974)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|Georgia Institute of Technology|SenSys'24|IoT|GPT-3.5-Turbo, <br>GPT-4-Turbo 
 18 <br>Oct <br>2024|[TimeSeriesExam: A time series understanding exam](https://arxiv.org/abs/2410.14752)**[**[**Code**](https://huggingface.co/datasets/AutonLab/TimeSeriesExam1)**]**|Carnegie Mellon University|NeurIPS'24 Workshop|General|GPT-4o, Gemini, Phi3.5
 12 <br>Jun <br>2024|[Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis](https://arxiv.org/abs/2406.08627)**[**[**Code**](https://github.com/AdityaLab/Time-MMD)**]**|Georgia Institute of Technology|NeurIPS'24|General|LLaMA-3, <br>GPT-2
 17 <br>Apr <br>2024|[Language Models Still Struggle to Zero-shot Reason about Time Series (TSandLanguage)](https://arxiv.org/abs/2404.11757)**[**[**Code**](https://github.com/behavioral-data/TSandLanguage)**]**|University of Washington|EMNLP'24 (Findings)|General|GPT-4 
@@ -196,12 +196,12 @@ Date|Paper|Institute|Publication|Domain|LLMs
 16 <br>Feb <br>2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities (TSFLLMs)](https://arxiv.org/abs/2402.10835)**[**[**Code**](https://github.com/MingyuJ666/Time-Series-Forecasting-with-LLMs)**]**|Rutgers University|KDD'25 Explorations Newsletter|General|GPT-3.5, <br>GPT-4, <br>LLaMA-2
 10 <br>Feb <br>2024|[REALM: RAG-Driven Enhancement of Multimodal Electronic Healthcare Records Analysis via Large Language Models](https://arxiv.org/abs/2402.07016)|Beihang University, China Mobile Research Institute|Preprint|Medical|GPT-4, <br>Qwen
 10 <br>Dec <br>2023|[PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting](https://arxiv.org/abs/2210.08964)**[**[**Code**](https://github.com/HaoUNSW/PISA)**]**|University of New South Wales|TKDE'24|General|BART, <br>BERT, <br>ChatGPT 
-14 <br>Nov <br>2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|Spatio-temporal|CLIP, <br>GPT-2
+14 <br>Nov <br>2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|CLIP, <br>GPT-2
 11 <br>Oct <br>2023|[Large Language Models Are Zero-Shot Time Series Forecasters (LLMTime)](https://arxiv.org/abs/2310.07820)**[**[**Code**](https://github.com/ngruver/llmtime)**]**|New York University|NeurIPS'23|General|GPT-3, <br>LLaMA-2 
 22 <br>Jun <br>2023|[Instruct-FinGPT: Financial Sentiment Analysis by Instruction Tuning of General-Purpose Large Language Models](https://arxiv.org/abs/2306.12659)|Columbia University|IJCAI'23 <br>FinLLM <br>Symposium|Financial|LLaMA, ChatGPT
 24 <br>May <br>2023|[Large Language Models are Few-Shot Healthcare Learners](https://arxiv.org/abs/2305.15525)**[**[**Code**](https://github.com/marianux/ecg-kit)**]**|Google|Preprint|Medical|PaLM
 10 <br>Apr <br>2023|[The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges](https://arxiv.org/abs/2304.05351)|Wuhan University|Preprint|Financial|ChatGPT
-1 <br>Jan <br>2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition (SHARE)](https://arxiv.org/abs/2301.03462)|University of California|CIKM'23|Spatio-temporal|GPT-4
+1 <br>Jan <br>2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition (SHARE)](https://arxiv.org/abs/2301.03462)|University of California|CIKM'23|IoT|GPT-4
 
 ### Bridging Alignment:
 Date|Paper|Institute|Publication|Domain|LLMs
@@ -220,7 +220,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 19 <br>Feb <br>2025|[Adapting Large Language Models for Time Series Modeling via a Novel Parameter-efficient Adaptation Method (Time-LlaMA)](https://arxiv.org/abs/2502.13725)|Nanyang Technological University|ACL'25|General|Llama-2
 17 <br>Feb <br>2025|[TimeCAP: Learning to Contextualize, Augment, and Predict Time Series Events with Large Language Model Agents](https://arxiv.org/abs/2502.11418)**[**[**Code**](https://github.com/geon0325/TimeCAP)**]**|Korea Advanced Institute of Science and Technology|AAAI'25|General|GPT-4, <br>BERT
 6 <br>Feb <br>2025|[Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting](https://arxiv.org/abs/2502.04395)|Hong Kong University of Science and Technology (Guangzhou)|ICML'25|General|ViLT, <br>CLIP, <br>BLIP-2
-5 <br>Feb <br>2025|[SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions](https://arxiv.org/abs/2502.02883)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|University of California San Diego|IMWUT'25|Spatio-temporal|GPT-3.5-Turbo, <br>LLaMA
+5 <br>Feb <br>2025|[SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions](https://arxiv.org/abs/2502.02883)**[**[**Code**](https://github.com/benjamin-reichman/SensorQA)**]**|University of California San Diego|IMWUT'25|IoT|GPT-3.5-Turbo, <br>LLaMA
 27 <br>Jan <br>2025|[Smarter Together: Combining Large Language Models and Small Models for Physiological Signals Visual Inspection (ConMIL)](https://arxiv.org/abs/2501.16215)**[**[**Code**](https://github.com/HuayuLiArizona/Conformalized-Multiple-Instance-Learning-For-MedTS)**]**|University of Arizona|J. Heal. Informatics Res.|Medical|GPT-4, <br>Qwen2-VL
 8 <br>Jan <br>2025|[TS-TCD: Triplet-Level Cross-Modal Distillation for Time-Series Forecasting Using Large Language Models](https://arxiv.org/abs/2409.14978v1)|East China Normal University|ICASSP'25|General|GPT-2
 3 <br>Jan <br>2025|[Time Series Language Model for Descriptive Caption Generation (TSLM)](https://arxiv.org/abs/2501.01832)|Nokia Bell Labs|Preprint|General|LLaMA-2
@@ -231,7 +231,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 5 <br>Nov <br>2024|[Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model (CrossTimeNet)](https://arxiv.org/abs/2403.12372)**[**[**Code**](https://github.com/Mingyue-Cheng/CrossTimeNet)**]**|University of Science and Technology of China|Preprint|General|BERT, <br>GPT-2
 31 <br>Oct <br>2024|[AutoTimes: Autoregressive Time Series Forecasters via Large Language Models](https://arxiv.org/abs/2402.02370)**[**[**Code**](https://github.com/thuml/AutoTimes)**]**|Tsinghua University|NeurIPS'24|General|LLaMA, <br>GPT-2, <br>OPT
 21 <br>Oct <br>2024|[LLM-TS Integrator: Integrating LLM for Enhanced Time Series Modeling](https://arxiv.org/abs/2410.16489)|Borealis AI|Preprint|General|LLaMA
-14 <br>Oct <br>2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)**[**[**Code**](https://github.com/zechenli03/SensorLLM)**]**|University of New South Wales, Sydney|EMNLP'25|Spatio-temporal|Llama3
+14 <br>Oct <br>2024|[SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition](https://arxiv.org/abs/2410.10624)**[**[**Code**](https://github.com/zechenli03/SensorLLM)**]**|University of New South Wales, Sydney|EMNLP'25|IoT|Llama3
 8 <br>Oct <br>2024|[Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series Forecasting](https://arxiv.org/abs/2405.14252)|The Hong Kong University of Science and Technology (Guangzhou)|NeurIPS 2024|General|GPT-2
 23 <br>Sep <br>2024|[TS-HTFA: Advancing Time Series Forecasting via Hierarchical Text-Free Alignment with Large Language Models](https://arxiv.org/abs/2409.14978)|East China Normal University|Preprint|General|GPT-2
 30 <br>Jul <br>2024|[A federated large language model for long-term time series forecasting (FedTime)](https://arxiv.org/abs/2407.20503)|Concordia Universit|Preprint|General|LLaMA
@@ -262,7 +262,7 @@ Date|Paper|Institute|Publication|Domain|LLMs
 16 <br>Apr <br>2025|[ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104)**[**[**Code**](https://github.com/NetManAIOps/ChatTS)**]**|Tsinghua University|VLDB'25|General|QWen-2.5
 16 <br>Apr <br>2025|[ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis](https://arxiv.org/abs/2408.08849)**[**[**Code**](https://github.com/YubaoZhao/ECG-Chat)**]**|China University of Geosciences|ICME'25|Medical|GPT-4, <br>Vicuna-13B
 16 <br>Dec <br>2024|[ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data](https://arxiv.org/abs/2412.11376)**[**[**Code**](https://github.com/ForestsKing/ChatTime)**]**|Beijing University of Posts and Telecommunications|AAAI'25|General|LLaMA-2
-13 <br>Aug <br>2024|[GenG: An LLM-Based Generic Time Series Data Generation Approach for Edge Intelligence via Cross-Domain Collaboration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620716)|Future Network Research Center, Purple Mountain Laboratories|INFOCOM'24|Spatio-temporal|LLaMA
+13 <br>Aug <br>2024|[GenG: An LLM-Based Generic Time Series Data Generation Approach for Edge Intelligence via Cross-Domain Collaboration](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10620716)|Future Network Research Center, Purple Mountain Laboratories|INFOCOM'24|IoT|LLaMA
 19 <br>Mar <br>2024|[Advancing Time Series Classification with Multimodal Language Modeling (InstructTime)](https://arxiv.org/abs/2403.12371)**[**[**Code**](https://github.com/Mingyue-Cheng/InstructTime)**]**|University of Science and Technology of China|WSDM'25|General|GPT-2
 21 <br>Dec <br>2023|[BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)|Bloomberg|Preprint|Financial|GPT-NeoX, <br>OPT, <br>BLOOM
 
@@ -277,8 +277,8 @@ Dataset|Domain|Characteristic|Representation|Statistic
 [PIXIU](https://github.com/chancefocus/PIXIU)|Financial|Multivariate, trend, noise|Number+Text<br>+Table|136K samples
 [StockNet](https://github.com/yumoxu/stocknet-dataset)|Financial|Multivariate, noise, trend|Number+Text|26,614 samples
 [Finst](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Financial|Multivariate, <br>periodicity, trend, noise|Text(Number)|29.7M samples
-[Ego4D](https://ego4d-data.org/)|Spatio-temporal|Multivariate, <br>stationarity, periodic, noise|Video+Audio|3,670h data, <br>3.85M samples
-[DeepSQA](https://github.com/nesl/DeepSQA)|Spatio-temporal|Multivariate, <br>noise, trends, periodicity|Text(Number)|1K samples
+[Ego4D](https://ego4d-data.org/)|IoT|Multivariate, <br>stationarity, periodic, noise|Video+Audio|3,670h data, <br>3.85M samples
+[DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Multivariate, <br>noise, trends, periodicity|Text(Number)|1K samples
 [TS-Insights](https://drive.google.com/drive/folders/1qGXigxE5GvmF1oLuGXaqLMkRgwoQfZ7V)|General|Multivariate, <br>trend, seasonality|Number+Text<br>+Image|100,000 samples
 [TimeMMD](https://github.com/AdityaLab/Time-MMD)|General|Multivariate, <br>stationarity, trends|Text(Number)|496 samples
 [CiK](https://github.com/ServiceNow/context-is-key-forecasting)|General|Univariate, multivariate, <br>stationarity, trend, <br>noise, periodicity|Number+Text|2,644 samples
